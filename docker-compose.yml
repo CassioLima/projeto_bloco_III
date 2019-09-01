@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  
+  EventBuyingAPI:
+    image: EventBuyingAPI
+    build:
+      context: ./EventBuyingAPI
+      dockerfile: Dockerfile

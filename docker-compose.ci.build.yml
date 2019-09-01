@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  ci-build:
+    image: microsoft/aspnetcore-build:2.2
+    --volumes:
+    --  - .:/src
+    working_dir: /
+    command: /bin/bash -c "dotnet restore ./Projeto_Bloco_III.sln && dotnet publish ./Projeto_Bloco_III.sln -c Release -o ./obj/Docker/publish"

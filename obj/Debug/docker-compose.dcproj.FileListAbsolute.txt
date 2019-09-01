@@ -1,0 +1,5 @@
+C:\projetos\Projeto_Bloco_Infnet_III\projeto_bloco_III\Projeto_Bloco_III\bin\Debug\EventBuyingAPI.dll
+C:\projetos\Projeto_Bloco_Infnet_III\projeto_bloco_III\Projeto_Bloco_III\bin\Debug\EventBuyingAPI.pdb
+C:\projetos\Projeto_Bloco_Infnet_III\projeto_bloco_III\Projeto_Bloco_III\obj\Debug\docker-compose.dcprojAssemblyReference.cache
+C:\projetos\Projeto_Bloco_Infnet_III\projeto_bloco_III\Projeto_Bloco_III\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
+C:\projetos\Projeto_Bloco_Infnet_III\projeto_bloco_III\Projeto_Bloco_III\obj\Debug\docker-compose.dcproj.CopyComplete
