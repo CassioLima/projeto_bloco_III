@@ -1,4 +1,4 @@
-# Stone API - Desafio Stone
+# Projeto de Bloco - Venda de Ingresso
 
 Esta é uma solução para o Projeto de Bloco do curso Engenharia de Software da Infnet.
 
