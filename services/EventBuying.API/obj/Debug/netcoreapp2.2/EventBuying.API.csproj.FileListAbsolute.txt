@@ -1,0 +1,14 @@
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\services\EventBuying.API\bin\Debug\netcoreapp2.2\EventBuying.API.deps.json
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\services\EventBuying.API\bin\Debug\netcoreapp2.2\EventBuying.API.runtimeconfig.json
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\services\EventBuying.API\bin\Debug\netcoreapp2.2\EventBuying.API.runtimeconfig.dev.json
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\services\EventBuying.API\bin\Debug\netcoreapp2.2\EventBuying.API.dll
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\services\EventBuying.API\bin\Debug\netcoreapp2.2\EventBuying.API.pdb
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\services\EventBuying.API\obj\Debug\netcoreapp2.2\EventBuying.API.csprojAssemblyReference.cache
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\services\EventBuying.API\obj\Debug\netcoreapp2.2\EventBuying.API.csproj.CoreCompileInputs.cache
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\services\EventBuying.API\obj\Debug\netcoreapp2.2\EventBuying.API.RazorAssemblyInfo.cache
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\services\EventBuying.API\obj\Debug\netcoreapp2.2\EventBuying.API.RazorAssemblyInfo.cs
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\services\EventBuying.API\obj\Debug\netcoreapp2.2\EventBuying.API.AssemblyInfoInputs.cache
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\services\EventBuying.API\obj\Debug\netcoreapp2.2\EventBuying.API.AssemblyInfo.cs
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\services\EventBuying.API\obj\Debug\netcoreapp2.2\EventBuying.API.RazorTargetAssemblyInfo.cache
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\services\EventBuying.API\obj\Debug\netcoreapp2.2\EventBuying.API.dll
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\services\EventBuying.API\obj\Debug\netcoreapp2.2\EventBuying.API.pdb

@@ -1,11 +1,36 @@
 services:
-  EventBuyingAPI:
+  eventbuying.api:
     build:
-      context: C:\projetos\Projeto_Bloco_Infnet_III\projeto_bloco_III\Projeto_Bloco_III\EventBuyingAPI
-      dockerfile: Dockerfile
+      context: C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III
+      dockerfile: services/EventBuying.API/Dockerfile
     environment:
       ASPNETCORE_ENVIRONMENT: Development
-    image: EventBuyingAPI
+      ASPNETCORE_HTTPS_PORT: '44368'
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: eventbuyingapi
     ports:
-    - target: 80
+    - published: 53647
+      target: 80
+    - published: 44368
+      target: 443
+    volumes:
+    - C:\Users\INFOESPORTE\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\INFOESPORTE\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+  eventslist.web:
+    build:
+      context: C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III
+      dockerfile: EventsList.Web/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTPS_PORT: '44346'
+      ASPNETCORE_URLS: https://+:443;http://+:80
+    image: eventslistweb
+    ports:
+    - published: 55807
+      target: 80
+    - published: 44346
+      target: 443
+    volumes:
+    - C:\Users\INFOESPORTE\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\INFOESPORTE\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
 version: '3.4'

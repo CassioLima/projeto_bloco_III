@@ -1,9 +1,15 @@
 version: '3.4'
 
 services:
-  
-  EventBuyingAPI:
-    image: EventBuyingAPI
+  eventbuying.api:
+    image: ${DOCKER_REGISTRY-}eventbuyingapi
     build:
-      context: ./EventBuyingAPI
-      dockerfile: Dockerfile
+      context: .
+      dockerfile: services/EventBuying.API/Dockerfile
+
+  eventslist.web:
+    image: ${DOCKER_REGISTRY-}eventslistweb
+    build:
+      context: .
+      dockerfile: EventsList.Web/Dockerfile
+
