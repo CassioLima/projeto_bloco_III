@@ -4,6 +4,7 @@ using EventsListMicroservices.Infra.DataAccess.Repositories.Contexts;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace EventsListMicroservices.Infra.DataAccess
 {
@@ -21,9 +22,9 @@ namespace EventsListMicroservices.Infra.DataAccess
             return _eventsListContext.Eventos.Find(id);
         }
 
-        IEnumerable<Eventos> IEventosQueryRepository.GetAll()
+        async Task<IEnumerable<Eventos>> IEventosQueryRepository.GetAll()
         {
-            return _eventsListContext.Eventos;
+            return  _eventsListContext.Eventos;
         }
     }
 }

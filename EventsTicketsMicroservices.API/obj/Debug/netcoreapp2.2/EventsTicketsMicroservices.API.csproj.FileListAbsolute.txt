@@ -1,0 +1,14 @@
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsTicketsMicroservices.API\bin\Debug\netcoreapp2.2\EventsTicketsMicroservices.API.deps.json
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsTicketsMicroservices.API\bin\Debug\netcoreapp2.2\EventsTicketsMicroservices.API.runtimeconfig.json
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsTicketsMicroservices.API\bin\Debug\netcoreapp2.2\EventsTicketsMicroservices.API.runtimeconfig.dev.json
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsTicketsMicroservices.API\bin\Debug\netcoreapp2.2\EventsTicketsMicroservices.API.dll
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsTicketsMicroservices.API\bin\Debug\netcoreapp2.2\EventsTicketsMicroservices.API.pdb
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsTicketsMicroservices.API\obj\Debug\netcoreapp2.2\EventsTicketsMicroservices.API.csprojAssemblyReference.cache
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsTicketsMicroservices.API\obj\Debug\netcoreapp2.2\EventsTicketsMicroservices.API.csproj.CoreCompileInputs.cache
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsTicketsMicroservices.API\obj\Debug\netcoreapp2.2\EventsTicketsMicroservices.API.RazorAssemblyInfo.cache
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsTicketsMicroservices.API\obj\Debug\netcoreapp2.2\EventsTicketsMicroservices.API.RazorAssemblyInfo.cs
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsTicketsMicroservices.API\obj\Debug\netcoreapp2.2\EventsTicketsMicroservices.API.AssemblyInfoInputs.cache
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsTicketsMicroservices.API\obj\Debug\netcoreapp2.2\EventsTicketsMicroservices.API.AssemblyInfo.cs
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsTicketsMicroservices.API\obj\Debug\netcoreapp2.2\EventsTicketsMicroservices.API.RazorTargetAssemblyInfo.cache
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsTicketsMicroservices.API\obj\Debug\netcoreapp2.2\EventsTicketsMicroservices.API.dll
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsTicketsMicroservices.API\obj\Debug\netcoreapp2.2\EventsTicketsMicroservices.API.pdb

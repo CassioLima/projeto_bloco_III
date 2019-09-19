@@ -1,27 +1,27 @@
 version: '3.4'
 
 services:
-  eventbuying.api:
-    image: eventbuyingapi:dev
+  eventbuyingmicroservices.api:
+    image: eventbuyingmicroservicesapi:dev
     build:
       target: base
       labels:
         com.microsoft.created-by: "visual-studio"
-        com.microsoft.visual-studio.project-name: "EventBuying.API"
+        com.microsoft.visual-studio.project-name: "EventBuyingMicroservices.API"
     environment:
       - DOTNET_USE_POLLING_FILE_WATCHER=1
-      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_eventbuying.api$
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_eventbuyingmicroservices.api$
     volumes:
-      - C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\services\EventBuying.API:/app
+      - C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventBuyingMicroservices.API:/app
       - C:\Users\INFOESPORTE\vsdbg\vs2017u5:/remote_debugger:ro
-#$nuget_volume_mapping_eventbuying.api$
+#$nuget_volume_mapping_eventbuyingmicroservices.api$
       - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
       - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
 
     entrypoint: tail -f /dev/null
     labels:
       com.microsoft.visualstudio.debuggee.program: "dotnet"
-      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_eventbuying.api$ \"bin/Debug/netcoreapp2.2/EventBuying.API.dll\""
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_eventbuyingmicroservices.api$ \"bin/Debug/netcoreapp2.2/EventBuyingMicroservices.API.dll\""
       com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
       com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
 
@@ -46,6 +46,56 @@ services:
     labels:
       com.microsoft.visualstudio.debuggee.program: "dotnet"
       #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_eventslist.web$ \"bin/Debug/netcoreapp2.2/EventsList.Web.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+
+
+  eventslistmicroservices.api:
+    image: eventslistmicroservicesapi:dev
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "EventsListMicroservices.API"
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_eventslistmicroservices.api$
+    volumes:
+      - C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsListMicroservices.API:/app
+      - C:\Users\INFOESPORTE\vsdbg\vs2017u5:/remote_debugger:ro
+#$nuget_volume_mapping_eventslistmicroservices.api$
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_eventslistmicroservices.api$ \"bin/Debug/netcoreapp2.2/EventsListMicroservices.API.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+
+
+  eventsticketsmicroservices.api:
+    image: eventsticketsmicroservicesapi:dev
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "EventsTicketsMicroservices.API"
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      #- NUGET_FALLBACK_PACKAGES=$container_paths_to_fallback_packages_eventsticketsmicroservices.api$
+    volumes:
+      - C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsTicketsMicroservices.API:/app
+      - C:\Users\INFOESPORTE\vsdbg\vs2017u5:/remote_debugger:ro
+#$nuget_volume_mapping_eventsticketsmicroservices.api$
+      - ${APPDATA}/ASP.NET/Https:/root/.aspnet/https:ro
+      - ${APPDATA}/Microsoft/UserSecrets:/root/.microsoft/usersecrets:ro
+
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_eventsticketsmicroservices.api$ \"bin/Debug/netcoreapp2.2/EventsTicketsMicroservices.API.dll\""
       com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
       com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
 

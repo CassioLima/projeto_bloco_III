@@ -1,0 +1,70 @@
+﻿@model IEnumerable<EventsListMicroservices.Domain.Model.Eventos>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+    <div class="list-group">
+        @foreach (var evento in Model)
+        {
+            @*<li>@evento.NOM_EVENTO</li>*@
+
+
+
+            <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">@evento.NOM_EVENTO</h5>
+                    <small class="text-muted">3 days ago</small>
+                </div>
+                <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                <small class="text-muted">Donec id elit non mi porta.</small>
+                <span class="badge badge-primary badge-pill">15</span>
+            </a>
+
+
+        }
+    </div>
+
+        @*<div class="list-group">
+
+
+
+            <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">List group item heading</h5>
+
+                    <small>3 days ago</small>
+
+                </div>
+                <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                <small>Donec id elit non mi porta.</small>
+                <span class="badge badge-primary badge-pill">18</span>
+            </a>
+
+
+            <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">List group item heading</h5>
+                    <small class="text-muted">3 days ago</small>
+                </div>
+                <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                <small class="text-muted">Donec id elit non mi porta.</small>
+                <span class="badge badge-primary badge-pill">15</span>
+            </a>
+
+
+
+            <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+                <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">List group item heading</h5>
+                    <small class="text-muted">3 days ago</small>
+                </div>
+                <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+                <small class="text-muted">Donec id elit non mi porta.</small>
+            </a>
+
+
+
+
+        </div>*@

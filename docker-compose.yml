@@ -1,15 +1,37 @@
 version: '3.4'
 
 services:
-  eventbuying.api:
-    image: ${DOCKER_REGISTRY-}eventbuyingapi
-    build:
-      context: .
-      dockerfile: services/EventBuying.API/Dockerfile
-
   eventslist.web:
     image: ${DOCKER_REGISTRY-}eventslistweb
+    ports:
+      - "8081:80"
     build:
       context: .
       dockerfile: EventsList.Web/Dockerfile
+
+  eventslistmicroservices.api:
+    image: ${DOCKER_REGISTRY-}eventslistmicroservicesapi
+    ports:
+      - "8083:80"
+    build:
+      context: .
+      dockerfile: EventsListMicroservices.API/Dockerfile
+
+
+  eventsticketsmicroservices.api:
+    image: ${DOCKER_REGISTRY-}eventsticketsmicroservicesapi
+    ports:
+      - "8082:80"
+    build:
+      context: .
+      dockerfile: EventsTicketsMicroservices.API/Dockerfile
+
+
+  eventbuyingmicroservices.api:
+    image: ${DOCKER_REGISTRY-}eventbuyingmicroservicesapi
+    ports:
+      - "8084:80"
+    build:
+      context: .
+      dockerfile: EventBuyingMicroservices.API/Dockerfile
 

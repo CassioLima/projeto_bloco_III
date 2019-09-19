@@ -22,7 +22,7 @@ namespace EventsListMicroservices.Infra.DataAccess.Properties {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class Resources {
+    internal class Resources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace EventsListMicroservices.Infra.DataAccess.Properties {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        public static global::System.Resources.ResourceManager ResourceManager {
+        internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("EventsListMicroservices.Infra.DataAccess.Properties.Resources", typeof(Resources).Assembly);
@@ -51,7 +51,7 @@ namespace EventsListMicroservices.Infra.DataAccess.Properties {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        public static global::System.Globalization.CultureInfo Culture {
+        internal static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,7 +63,7 @@ namespace EventsListMicroservices.Infra.DataAccess.Properties {
         /// <summary>
         ///   Looks up a localized string similar to Server=tcp:projetoinfnet.database.windows.net,1433;Initial Catalog=projetoblocoinfnet;Persist Security Info=False;User ID=adminAle;Password=senha@123;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;.
         /// </summary>
-        public static string DbConnectionString {
+        internal static string DbConnectionString {
             get {
                 return ResourceManager.GetString("DbConnectionString", resourceCulture);
             }

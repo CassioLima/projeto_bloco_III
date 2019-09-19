@@ -3,6 +3,7 @@ using EventsListMicroservices.Domain.Model;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace EventsListMicroservices.Domain.Service
 {
@@ -15,9 +16,9 @@ namespace EventsListMicroservices.Domain.Service
             _eventosQueryRepository = eventosQueryRepository;
         }
 
-        public IEnumerable<Eventos> GetAllEventos()
+        public async Task<IEnumerable<Eventos>> GetAllEventos()
         {
-            return _eventosQueryRepository.GetAll();
+            return await _eventosQueryRepository.GetAll();
         }
     }
 }
