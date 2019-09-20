@@ -34,4 +34,4 @@ Para compilação do projeto necessário .NET Core instalado em sua última vers
 
 ## Autor
 
-* **Ale / Cassio**
+* **Alessandra / Cassio**
