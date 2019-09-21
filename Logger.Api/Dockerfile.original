@@ -1,0 +1,19 @@
+FROM mcr.microsoft.com/dotnet/core/aspnet:2.2-stretch-slim AS base
+WORKDIR /app
+EXPOSE 80
+
+FROM mcr.microsoft.com/dotnet/core/sdk:2.2-stretch AS build
+WORKDIR /src
+COPY ["Logger.Api/Logger.Api.csproj", "Logger.Api/"]
+RUN dotnet restore "Logger.Api/Logger.Api.csproj"
+COPY . .
+WORKDIR "/src/Logger.Api"
+RUN dotnet build "Logger.Api.csproj" -c Release -o /app
+
+FROM build AS publish
+RUN dotnet publish "Logger.Api.csproj" -c Release -o /app
+
+FROM base AS final
+WORKDIR /app
+COPY --from=publish /app .
+ENTRYPOINT ["dotnet", "Logger.Api.dll"]

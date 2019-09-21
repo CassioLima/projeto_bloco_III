@@ -5,6 +5,9 @@ C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsList.Web\bin\Debug\net
 C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsList.Web\bin\Debug\netcoreapp2.2\EventsList.Web.pdb
 C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsList.Web\bin\Debug\netcoreapp2.2\EventsList.Web.Views.dll
 C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsList.Web\bin\Debug\netcoreapp2.2\EventsList.Web.Views.pdb
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsList.Web\bin\Debug\netcoreapp2.2\EventsListMicroservices.Domain.dll
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsList.Web\bin\Debug\netcoreapp2.2\EventsListMicroservices.Domain.pdb
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsList.Web\obj\Debug\netcoreapp2.2\EventsList.Web.csprojAssemblyReference.cache
 C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsList.Web\obj\Debug\netcoreapp2.2\EventsList.Web.csproj.CoreCompileInputs.cache
 C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsList.Web\obj\Debug\netcoreapp2.2\EventsList.Web.RazorAssemblyInfo.cache
 C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsList.Web\obj\Debug\netcoreapp2.2\EventsList.Web.RazorAssemblyInfo.cs
@@ -24,9 +27,6 @@ C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsList.Web\obj\Debug\net
 C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsList.Web\obj\Debug\netcoreapp2.2\EventsList.Web.RazorTargetAssemblyInfo.cache
 C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsList.Web\obj\Debug\netcoreapp2.2\EventsList.Web.RazorTargetAssemblyInfo.cs
 C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsList.Web\obj\Debug\netcoreapp2.2\EventsList.Web.Views.pdb
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsList.Web\obj\Debug\netcoreapp2.2\EventsList.Web.csproj.CopyComplete
 C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsList.Web\obj\Debug\netcoreapp2.2\EventsList.Web.dll
 C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsList.Web\obj\Debug\netcoreapp2.2\EventsList.Web.pdb
-C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsList.Web\obj\Debug\netcoreapp2.2\EventsList.Web.csproj.CopyComplete
-C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsList.Web\obj\Debug\netcoreapp2.2\EventsList.Web.csprojAssemblyReference.cache
-C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsList.Web\bin\Debug\netcoreapp2.2\EventsListMicroservices.Domain.dll
-C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsList.Web\bin\Debug\netcoreapp2.2\EventsListMicroservices.Domain.pdb

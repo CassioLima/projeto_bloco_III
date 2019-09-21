@@ -1,4 +1,16 @@
+networks:
+  esnet: {}
 services:
+  elasticsearch:
+    environment:
+      discovery.type: single-node
+      node.name: elastic_node01
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.3.2
+    networks:
+      esnet: {}
+    ports:
+    - published: 9200
+      target: 9200
   eventbuyingmicroservices.api:
     build:
       context: C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III
@@ -41,6 +53,28 @@ services:
     image: eventsticketsmicroservicesapi
     ports:
     - published: 8082
+      target: 80
+    - target: 80
+  kibana:
+    environment:
+      ELASTICSEARCH_URL: http://elasticsearch:9200
+    image: docker.elastic.co/kibana/kibana:7.3.2
+    networks:
+      esnet: {}
+    ports:
+    - published: 5601
+      target: 5601
+  logger.api:
+    build:
+      context: C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III
+      dockerfile: Logger.Api/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: loggerapi
+    networks:
+      esnet: {}
+    ports:
+    - published: 8085
       target: 80
     - target: 80
 version: '3.4'

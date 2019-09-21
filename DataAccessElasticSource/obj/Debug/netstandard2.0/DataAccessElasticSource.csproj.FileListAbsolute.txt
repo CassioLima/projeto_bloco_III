@@ -1,0 +1,14 @@
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\DataAccessElasticSource\bin\Debug\netstandard2.0\DataAccessElasticSource.deps.json
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\DataAccessElasticSource\bin\Debug\netstandard2.0\DataAccessElasticSource.dll
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\DataAccessElasticSource\bin\Debug\netstandard2.0\DataAccessElasticSource.pdb
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\DataAccessElasticSource\bin\Debug\netstandard2.0\DomainModelElasticSource.dll
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\DataAccessElasticSource\bin\Debug\netstandard2.0\DomainModelElasticSource.pdb
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\DataAccessElasticSource\obj\Debug\netstandard2.0\DataAccessElasticSource.csprojAssemblyReference.cache
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\DataAccessElasticSource\obj\Debug\netstandard2.0\DataAccessElasticSource.Properties.Resources.resources
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\DataAccessElasticSource\obj\Debug\netstandard2.0\DataAccessElasticSource.csproj.GenerateResource.cache
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\DataAccessElasticSource\obj\Debug\netstandard2.0\DataAccessElasticSource.csproj.CoreCompileInputs.cache
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\DataAccessElasticSource\obj\Debug\netstandard2.0\DataAccessElasticSource.AssemblyInfoInputs.cache
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\DataAccessElasticSource\obj\Debug\netstandard2.0\DataAccessElasticSource.AssemblyInfo.cs
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\DataAccessElasticSource\obj\Debug\netstandard2.0\DataAccessElasticSource.csproj.CopyComplete
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\DataAccessElasticSource\obj\Debug\netstandard2.0\DataAccessElasticSource.dll
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\DataAccessElasticSource\obj\Debug\netstandard2.0\DataAccessElasticSource.pdb

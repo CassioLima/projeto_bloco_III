@@ -3,7 +3,6 @@ C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventBuyingMicroservices.API
 C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventBuyingMicroservices.API\bin\Debug\netcoreapp2.2\EventBuyingMicroservices.API.runtimeconfig.dev.json
 C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventBuyingMicroservices.API\bin\Debug\netcoreapp2.2\EventBuyingMicroservices.API.dll
 C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventBuyingMicroservices.API\bin\Debug\netcoreapp2.2\EventBuyingMicroservices.API.pdb
-C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventBuyingMicroservices.API\obj\Debug\netcoreapp2.2\EventBuyingMicroservices.API.csprojAssemblyReference.cache
 C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventBuyingMicroservices.API\obj\Debug\netcoreapp2.2\EventBuyingMicroservices.API.csproj.CoreCompileInputs.cache
 C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventBuyingMicroservices.API\obj\Debug\netcoreapp2.2\EventBuyingMicroservices.API.RazorAssemblyInfo.cache
 C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventBuyingMicroservices.API\obj\Debug\netcoreapp2.2\EventBuyingMicroservices.API.RazorAssemblyInfo.cs
@@ -12,3 +11,4 @@ C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventBuyingMicroservices.API
 C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventBuyingMicroservices.API\obj\Debug\netcoreapp2.2\EventBuyingMicroservices.API.RazorTargetAssemblyInfo.cache
 C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventBuyingMicroservices.API\obj\Debug\netcoreapp2.2\EventBuyingMicroservices.API.dll
 C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventBuyingMicroservices.API\obj\Debug\netcoreapp2.2\EventBuyingMicroservices.API.pdb
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventBuyingMicroservices.API\obj\Debug\netcoreapp2.2\EventBuyingMicroservices.API.csprojAssemblyReference.cache

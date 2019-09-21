@@ -1,0 +1,9 @@
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\DomainModelElasticSource\bin\Debug\netstandard2.0\DomainModelElasticSource.deps.json
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\DomainModelElasticSource\bin\Debug\netstandard2.0\DomainModelElasticSource.dll
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\DomainModelElasticSource\bin\Debug\netstandard2.0\DomainModelElasticSource.pdb
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\DomainModelElasticSource\obj\Debug\netstandard2.0\DomainModelElasticSource.csprojAssemblyReference.cache
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\DomainModelElasticSource\obj\Debug\netstandard2.0\DomainModelElasticSource.csproj.CoreCompileInputs.cache
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\DomainModelElasticSource\obj\Debug\netstandard2.0\DomainModelElasticSource.AssemblyInfoInputs.cache
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\DomainModelElasticSource\obj\Debug\netstandard2.0\DomainModelElasticSource.AssemblyInfo.cs
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\DomainModelElasticSource\obj\Debug\netstandard2.0\DomainModelElasticSource.dll
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\DomainModelElasticSource\obj\Debug\netstandard2.0\DomainModelElasticSource.pdb

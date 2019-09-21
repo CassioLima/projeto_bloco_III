@@ -13,6 +13,8 @@ namespace EventsList.Web.Controllers
 {
     public class HomeController : Controller
     {
+
+
         public IActionResult Index()
         {
             HttpClient client = new HttpClient();
