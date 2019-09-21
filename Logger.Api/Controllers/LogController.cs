@@ -8,17 +8,18 @@ using DataAccess.Services.Elastic.Config.Log;
 using DomainModel.Log;
 using DomainService;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json.Linq;
 
 namespace Logger.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ValuesController : ControllerBase
+    public class LogController : ControllerBase
     {
 
         private ActivityLogService<UserActivityLog> _activityLogService;
 
-        public ValuesController()
+        public LogController()
         {
 
             //ActivityLogService
@@ -38,29 +39,38 @@ namespace Logger.Api.Controllers
             return new string[] { "value1", "value2" };
         }
 
-        // GET api/values/5
-        [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
+        //// GET api/values/5
+        //[HttpGet("{id}")]
+        //public ActionResult<string> Get(int id)
+        //{
+        //    return "value";
+        //}
+
+        //// POST api/values
+        //[HttpPost]
+        //public void Post([FromBody]JObject value)
+        //{
+        //    _activityLogService.RegisterActivity(new UserActivityLog(value.ToString()));
+        //}
+
+        [HttpPost("/api/Log/PostLog")]
+        public string PostLog([FromBody]JObject value)
         {
-            return "value";
+            _activityLogService.RegisterActivity(new UserActivityLog(value.ToString()));
+
+            return "ok"; 
         }
 
-        // POST api/values
-        [HttpPost]
-        public void Post([FromBody] string value)
-        {
-        }
+        //// PUT api/values/5
+        //[HttpPut("{id}")]
+        //public void Put(int id, [FromBody] string value)
+        //{
+        //}
 
-        // PUT api/values/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/values/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }
+        //// DELETE api/values/5
+        //[HttpDelete("{id}")]
+        //public void Delete(int id)
+        //{
+        //}
     }
 }

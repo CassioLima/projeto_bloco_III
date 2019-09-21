@@ -13,14 +13,26 @@ namespace EventsList.Web.Controllers
 {
     public class HomeController : Controller
     {
-
+        
 
         public IActionResult Index()
         {
-            HttpClient client = new HttpClient();
-            client.BaseAddress = new Uri("http://eventslistmicroservices.api/");
 
-            HttpResponseMessage response = client.GetAsync("/api/events/GetAll").Result;
+            //----------------------- Log Inicio --------------------------------
+            HttpClient clientLog = new HttpClient();
+            var log = new Log("Events/Home", "Pesquisa Eventos");
+            clientLog.BaseAddress = new Uri("http://logger.api/");
+            HttpResponseMessage responseLog = clientLog.PostAsJsonAsync("api/Log/PostLog", log).Result;
+            responseLog.EnsureSuccessStatusCode();
+
+            //----------------------- Log Fim --------------------------------
+
+
+
+            //----------------------- Atualiza Tela Inicio --------------------------------
+            HttpClient clientGet = new HttpClient();
+            clientGet.BaseAddress = new Uri("http://eventslistmicroservices.api/");
+            HttpResponseMessage response = clientGet.GetAsync("/api/events/GetAll").Result;
 
             if (response.IsSuccessStatusCode)
             {
@@ -30,7 +42,10 @@ namespace EventsList.Web.Controllers
                 return View(model);
             }
 
-           return null;
+            //----------------------- Atualiza Tela Fim --------------------------------
+
+                                 
+            return null;
         }
 
         public IActionResult Privacy()
@@ -44,4 +59,26 @@ namespace EventsList.Web.Controllers
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
+
+
+    class Log
+    {
+
+        public Log(string Tela, string Log)
+        {
+            sTela = Tela;
+            sLog = Log;
+        }
+
+        public string sTela;
+        public string sLog;
+
+        //public Log GetLog()
+        //{
+        //    return null;
+
+
+        //}
+    }
+
 }

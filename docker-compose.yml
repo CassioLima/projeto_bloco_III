@@ -8,6 +8,15 @@ services:
     build:
       context: .
       dockerfile: EventsList.Web/Dockerfile
+    depends_on:
+      - eventslistmicroservices.api
+      - eventsticketsmicroservices.api
+      - eventbuyingmicroservices.api
+      - elasticsearch
+      - logger.api
+    networks:
+      - esnet
+
 
   eventslistmicroservices.api:
     image: ${DOCKER_REGISTRY-}eventslistmicroservicesapi
@@ -16,6 +25,8 @@ services:
     build:
       context: .
       dockerfile: EventsListMicroservices.API/Dockerfile
+    networks:
+      - esnet
 
 
   eventsticketsmicroservices.api:
@@ -25,6 +36,8 @@ services:
     build:
       context: .
       dockerfile: EventsTicketsMicroservices.API/Dockerfile
+    networks:
+      - esnet
 
 
   eventbuyingmicroservices.api:
@@ -34,6 +47,8 @@ services:
     build:
       context: .
       dockerfile: EventBuyingMicroservices.API/Dockerfile
+    networks:
+      - esnet
 
 
   elasticsearch:
