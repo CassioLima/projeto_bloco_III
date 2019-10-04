@@ -18,6 +18,8 @@ services:
     environment:
       ASPNETCORE_ENVIRONMENT: Development
     image: eventbuyingmicroservicesapi
+    networks:
+      esnet: {}
     ports:
     - published: 8084
       target: 80
@@ -26,9 +28,17 @@ services:
     build:
       context: C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III
       dockerfile: EventsList.Web/Dockerfile
+    depends_on:
+    - elasticsearch
+    - eventbuyingmicroservices.api
+    - eventslistmicroservices.api
+    - eventsticketsmicroservices.api
+    - logger.api
     environment:
       ASPNETCORE_ENVIRONMENT: Development
     image: eventslistweb
+    networks:
+      esnet: {}
     ports:
     - published: 8081
       target: 80
@@ -40,6 +50,8 @@ services:
     environment:
       ASPNETCORE_ENVIRONMENT: Development
     image: eventslistmicroservicesapi
+    networks:
+      esnet: {}
     ports:
     - published: 8083
       target: 80
@@ -51,6 +63,8 @@ services:
     environment:
       ASPNETCORE_ENVIRONMENT: Development
     image: eventsticketsmicroservicesapi
+    networks:
+      esnet: {}
     ports:
     - published: 8082
       target: 80

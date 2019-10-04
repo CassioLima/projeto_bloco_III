@@ -17,3 +17,5 @@ C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsListMicroservices.API\
 C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsListMicroservices.API\obj\Debug\netcoreapp2.2\EventsListMicroservices.API.csproj.CopyComplete
 C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsListMicroservices.API\obj\Debug\netcoreapp2.2\EventsListMicroservices.API.dll
 C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsListMicroservices.API\obj\Debug\netcoreapp2.2\EventsListMicroservices.API.pdb
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsListMicroservices.API\obj\Debug\netcoreapp2.2\EventsListMicroservices.API.Properties.Resources.resources
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsListMicroservices.API\obj\Debug\netcoreapp2.2\EventsListMicroservices.API.csproj.GenerateResource.cache

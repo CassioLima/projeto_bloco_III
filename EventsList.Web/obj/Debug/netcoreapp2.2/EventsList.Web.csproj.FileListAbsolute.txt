@@ -30,3 +30,5 @@ C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsList.Web\obj\Debug\net
 C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsList.Web\obj\Debug\netcoreapp2.2\EventsList.Web.csproj.CopyComplete
 C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsList.Web\obj\Debug\netcoreapp2.2\EventsList.Web.dll
 C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsList.Web\obj\Debug\netcoreapp2.2\EventsList.Web.pdb
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsList.Web\obj\Debug\netcoreapp2.2\EventsList.Web.Properties.Resources.resources
+C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsList.Web\obj\Debug\netcoreapp2.2\EventsList.Web.csproj.GenerateResource.cache

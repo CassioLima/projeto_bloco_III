@@ -18,6 +18,8 @@ services:
     environment:
       ASPNETCORE_ENVIRONMENT: Development
     image: eventbuyingmicroservicesapi
+    networks:
+      esnet: {}
     ports:
     - published: 8084
       target: 80
@@ -35,6 +37,8 @@ services:
     environment:
       ASPNETCORE_ENVIRONMENT: Development
     image: eventslistweb
+    networks:
+      esnet: {}
     ports:
     - published: 8081
       target: 80
@@ -46,6 +50,8 @@ services:
     environment:
       ASPNETCORE_ENVIRONMENT: Development
     image: eventslistmicroservicesapi
+    networks:
+      esnet: {}
     ports:
     - published: 8083
       target: 80
@@ -57,6 +63,8 @@ services:
     environment:
       ASPNETCORE_ENVIRONMENT: Development
     image: eventsticketsmicroservicesapi
+    networks:
+      esnet: {}
     ports:
     - published: 8082
       target: 80
@@ -83,4 +91,15 @@ services:
     - published: 8085
       target: 80
     - target: 80
+  rabbitmq1:
+    container_name: rabbitmq1
+    hostname: rabbitmq1
+    image: rabbitmq:3-management
+    networks:
+      esnet: {}
+    ports:
+    - published: 8086
+      target: 15672
+    volumes:
+    - /storage/rabbitmq1:/var/lib/rabbitmq:rw
 version: '3.4'

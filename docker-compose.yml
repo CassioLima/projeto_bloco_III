@@ -83,5 +83,26 @@ services:
       - esnet
 
 
+  rabbitmq1:
+    image: rabbitmq:3-management
+    container_name: rabbitmq1
+    hostname: rabbitmq1
+    ports:
+      - "8086:15672"
+    volumes:
+     - $PWD/storage/rabbitmq1:/var/lib/rabbitmq
+    networks:
+      - esnet
+
+
+  redis:
+    image: redis
+    command: redis-server --requirepass Redis2019!
+    ports:
+      - "8087:6379"
+    networks:
+      - esnet
+
+
 networks:
   esnet:

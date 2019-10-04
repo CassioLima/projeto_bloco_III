@@ -32,6 +32,8 @@ services:
         dotnet); then kill $$PID; fi"
       com.microsoft.visualstudio.debuggee.program: dotnet
       com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    networks:
+      esnet: {}
     ports:
     - published: 8084
       target: 80
@@ -51,6 +53,12 @@ services:
         com.microsoft.created-by: visual-studio
         com.microsoft.visual-studio.project-name: EventsList.Web
       target: base
+    depends_on:
+    - elasticsearch
+    - eventbuyingmicroservices.api
+    - eventslistmicroservices.api
+    - eventsticketsmicroservices.api
+    - logger.api
     entrypoint: tail -f /dev/null
     environment:
       ASPNETCORE_ENVIRONMENT: Development
@@ -64,6 +72,8 @@ services:
         dotnet); then kill $$PID; fi"
       com.microsoft.visualstudio.debuggee.program: dotnet
       com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    networks:
+      esnet: {}
     ports:
     - published: 8081
       target: 80
@@ -96,6 +106,8 @@ services:
         dotnet); then kill $$PID; fi"
       com.microsoft.visualstudio.debuggee.program: dotnet
       com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    networks:
+      esnet: {}
     ports:
     - published: 8083
       target: 80
@@ -128,6 +140,8 @@ services:
         dotnet); then kill $$PID; fi"
       com.microsoft.visualstudio.debuggee.program: dotnet
       com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    networks:
+      esnet: {}
     ports:
     - published: 8082
       target: 80
