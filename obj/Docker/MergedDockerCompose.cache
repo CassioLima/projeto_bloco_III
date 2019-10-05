@@ -91,4 +91,23 @@ services:
     - published: 8085
       target: 80
     - target: 80
+  rabbitmq1:
+    container_name: rabbitmq1
+    hostname: rabbitmq1
+    image: rabbitmq:3-management
+    networks:
+      esnet: {}
+    ports:
+    - published: 8086
+      target: 15672
+    volumes:
+    - /storage/rabbitmq1:/var/lib/rabbitmq:rw
+  redis:
+    command: redis-server --requirepass Redis2019!
+    image: redis
+    networks:
+      esnet: {}
+    ports:
+    - published: 8087
+      target: 6379
 version: '3.4'

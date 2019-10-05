@@ -55,15 +55,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infrastructure", "3 - Infrastructure", "{D6BC321F-7856-4DF7-BD31-96CF2177077D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessElasticSource", "DataAccessElasticSource\DataAccessElasticSource.csproj", "{4F9CA101-6673-4678-84CE-8D47114AF5C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataAccessElasticSource", "DataAccessElasticSource\DataAccessElasticSource.csproj", "{4F9CA101-6673-4678-84CE-8D47114AF5C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainModelElasticSource", "DomainModelElasticSource\DomainModelElasticSource.csproj", "{5EDD7E73-EAC6-4780-B26B-B8C9B0B3A570}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DomainModelElasticSource", "DomainModelElasticSource\DomainModelElasticSource.csproj", "{5EDD7E73-EAC6-4780-B26B-B8C9B0B3A570}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainServiceElasticSource", "DomainServiceElasticSource\DomainServiceElasticSource.csproj", "{5C1E88BC-8142-4303-9E79-C160F0D16F05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DomainServiceElasticSource", "DomainServiceElasticSource\DomainServiceElasticSource.csproj", "{5C1E88BC-8142-4303-9E79-C160F0D16F05}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Service", "1 - Service", "{A28255DB-1E33-4B84-B7B7-CCDECA77BBBF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logger.Api", "Logger.Api\Logger.Api.csproj", "{4E47A98B-7B28-43B6-9F44-61EAAD72A819}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Logger.Api", "Logger.Api\Logger.Api.csproj", "{4E47A98B-7B28-43B6-9F44-61EAAD72A819}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentos", "Documentos", "{083E9ADB-1213-4CD6-AB60-B4687F118F9F}"
+	ProjectSection(SolutionItems) = preProject
+		Enderecos.txt = Enderecos.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
