@@ -38,3 +38,10 @@ http://localhost:5601/app/kibana
 
 ElasticSource
 http://localhost:9200/
+
+
+
+
+Exemplo RabbitMQ
+https://github.com/renatogroffe/RabbitMQ-DotNetCore2.1
+https://medium.com/@renato.groffe/net-core-2-1-asp-net-core-2-1-rabbitmq-exemplos-utilizando-mensageria-3e1427133167
