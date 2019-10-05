@@ -61,6 +61,10 @@
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.7.9, )"
+            },
+            "Telegram.Bot": {
+              "target": "Package",
+              "version": "[15.0.0, )"
             }
           },
           "imports": [

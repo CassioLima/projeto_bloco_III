@@ -10,10 +10,11 @@ http://localhost:32787/#
 
 
 
-
+Tickets
 http://localhost:8082/api/values
 
 
+Lista Eventos
 http://localhost:8083/api/values
 
 
@@ -45,3 +46,10 @@ http://localhost:9200/
 Exemplo RabbitMQ
 https://github.com/renatogroffe/RabbitMQ-DotNetCore2.1
 https://medium.com/@renato.groffe/net-core-2-1-asp-net-core-2-1-rabbitmq-exemplos-utilizando-mensageria-3e1427133167
+
+
+
+Configurar Telegran 
+Criar um App
+https://my.telegram.org/apps
+https://api.telegram.org/bot952149526:AAG4I43m2bmKAOebeHfYpwPKKP8aZHzkrpI/getUpdates

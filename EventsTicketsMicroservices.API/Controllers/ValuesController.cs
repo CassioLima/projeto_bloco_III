@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using System.IO;
+using System.Net;
+using System.Text;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EventsTicketsMicroservices.API.Controllers
@@ -10,11 +11,33 @@ namespace EventsTicketsMicroservices.API.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
+
+
         // GET api/values
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "value1", "value2" };
+
+            string urlString = "https://api.telegram.org/bot{0}/sendMessage?chat_id={1}&text={2}";
+            string apiToken = "952149526:AAG4I43m2bmKAOebeHfYpwPKKP8aZHzkrpI";
+            string chatId = "587960068";
+            string text = "Hello world! Ale";
+            urlString = String.Format(urlString, apiToken, chatId, text);
+            WebRequest request = WebRequest.Create(urlString);
+            Stream rs = request.GetResponse().GetResponseStream();
+            StreamReader reader = new StreamReader(rs);
+            string line = "";
+            StringBuilder sb = new StringBuilder();
+            while (line != null)
+            {
+                line = reader.ReadLine();
+                if (line != null)
+                    sb.Append(line);
+            }
+            string response = sb.ToString();
+
+
+            return null;
         }
 
         // GET api/values/5
