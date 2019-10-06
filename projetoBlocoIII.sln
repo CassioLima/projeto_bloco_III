@@ -70,6 +70,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentos", "Documentos", 
 		Enderecos.txt = Enderecos.txt
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EventsConsumerConsole", "EventsConsumerConsole", "{BDC4B1BC-DE7D-4574-A981-7EEB98B9AA81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventsConsumerConsoleApp", "..\EventsConsumerConsoleApp\EventsConsumerConsoleApp.csproj", "{D265DFFC-1238-4E12-B761-592CD086FB7D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -120,6 +124,10 @@ Global
 		{4E47A98B-7B28-43B6-9F44-61EAAD72A819}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E47A98B-7B28-43B6-9F44-61EAAD72A819}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E47A98B-7B28-43B6-9F44-61EAAD72A819}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D265DFFC-1238-4E12-B761-592CD086FB7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D265DFFC-1238-4E12-B761-592CD086FB7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D265DFFC-1238-4E12-B761-592CD086FB7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D265DFFC-1238-4E12-B761-592CD086FB7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -150,6 +158,7 @@ Global
 		{5C1E88BC-8142-4303-9E79-C160F0D16F05} = {95E442DB-7568-4986-8577-66BD97D0CCDF}
 		{A28255DB-1E33-4B84-B7B7-CCDECA77BBBF} = {9869EB26-134D-48F0-94AF-9A2FB9D3993F}
 		{4E47A98B-7B28-43B6-9F44-61EAAD72A819} = {A28255DB-1E33-4B84-B7B7-CCDECA77BBBF}
+		{D265DFFC-1238-4E12-B761-592CD086FB7D} = {BDC4B1BC-DE7D-4574-A981-7EEB98B9AA81}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {23D19E08-8B25-43E1-9ED0-5AC767A20DCA}

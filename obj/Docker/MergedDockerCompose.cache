@@ -98,7 +98,11 @@ services:
     networks:
       esnet: {}
     ports:
+    - published: 6672
+      target: 5672
     - published: 8086
+      target: 15672
+    - published: 15672
       target: 15672
     volumes:
     - /storage/rabbitmq1:/var/lib/rabbitmq:rw

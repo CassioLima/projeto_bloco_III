@@ -8,7 +8,6 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace EventsTicketsMicroservices.API.Controllers
 {
-    [DisableCors]
     [Route("api/[controller]")]
     [ApiController]
     public class ValuesController : ControllerBase

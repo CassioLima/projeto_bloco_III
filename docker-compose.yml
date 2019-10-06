@@ -89,6 +89,8 @@ services:
     hostname: rabbitmq1
     ports:
       - "8086:15672"
+      - "6672:5672"
+      - "15672:15672"
     volumes:
      - $PWD/storage/rabbitmq1:/var/lib/rabbitmq
     networks:
