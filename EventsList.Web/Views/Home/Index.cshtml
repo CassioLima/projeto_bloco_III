@@ -40,18 +40,20 @@
                 <p><div id="sNomeEvento"></div></p>
                 <div class="input-group">
                     <div class="input-group-prepend">
-                        <span class="input-group-text" id="">Informe seu nome</span>
+                        <span class="input-group-text">Informe seu nome</span>
                     </div>
-                    <input type="text" class="form-control">
+                    <input type="text" id="txtNome" name="txtNome" class="form-control">
                 </div>
 
             </div>
-        <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            <button type="button" id="btnExportWord" class="btn btn-primary">Gerar Ingresso</button>
-        </div>
-    </div><!-- /.modal-content -->
-            </div><!-- /.modal-dialog -->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <form id="form" name="form">
+                    <button type="button" id="btnCompra" class="btn btn-primary">Gerar Ingresso</button>
+                </form>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 
 
@@ -61,6 +63,8 @@
 
 
     $(document).ready(function () {
+        $.support.cors = true;
+        var nomeEvento;
         $(".list-group-item").on('click', function () {
 
 
@@ -68,13 +72,43 @@
             $(this).addClass('active');
 
 
-            sNomeEvento.innerText = "Nome do Evento: "+  $(this).children().children()[0].innerText;
+            sNomeEvento.innerText = "Nome do Evento: " + $(this).children().children()[0].innerText;
 
-            $('#iddiv').modal('show'); 
-
+            $('#iddiv').modal('show');
+            nomeEvento = $(this).children().children()[0].innerText;
             console.log($(this).children().children()[0].innerText);
 
 
+
+        });
+
+        $('#btnCompra').on('click', function (e) {
+            e.preventDefault();
+            console.log('1');
+
+            var jsonObject = {
+                "Mensagem": nomeEvento,
+                "Nome": $("#txtNome").val()
+            };
+
+            //alert(JSON.stringify(jsonObject));
+
+            $.ajax({
+                url: "http://localhost:8084/api/values",
+                method: "POST",
+                crossDomain: true,
+                headers: { 'Access-Control-Allow-Origin': '*' },
+                data: JSON.stringify(jsonObject),
+                dataType: 'json',
+                contentType: "application/json",
+                success: function (response) {
+                    //var resp = JSON.parse(response)
+                    alert(response.resultado);
+                },
+                error: function (xhr, status) {
+                    alert("error");
+                }
+            });
 
         });
     });

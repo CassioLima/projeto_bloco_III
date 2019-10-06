@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projetos\\Infnet_ProjetoBloco_3\\projeto_bloco_III\\EventsListMicroservices.Infra.DataAccess\\EventsListMicroservices.Infra.DataAccess.csproj": {}
+    "D:\\@Infnet\\projeto_bloco\\projeto_bloco_III\\EventsListMicroservices.Infra.DataAccess\\EventsListMicroservices.Infra.DataAccess.csproj": {}
   },
   "projects": {
-    "C:\\projetos\\Infnet_ProjetoBloco_3\\projeto_bloco_III\\EventsListMicroservices.Domain\\EventsListMicroservices.Domain.csproj": {
+    "D:\\@Infnet\\projeto_bloco\\projeto_bloco_III\\EventsListMicroservices.Domain\\EventsListMicroservices.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projetos\\Infnet_ProjetoBloco_3\\projeto_bloco_III\\EventsListMicroservices.Domain\\EventsListMicroservices.Domain.csproj",
+        "projectUniqueName": "D:\\@Infnet\\projeto_bloco\\projeto_bloco_III\\EventsListMicroservices.Domain\\EventsListMicroservices.Domain.csproj",
         "projectName": "EventsListMicroservices.Domain",
-        "projectPath": "C:\\projetos\\Infnet_ProjetoBloco_3\\projeto_bloco_III\\EventsListMicroservices.Domain\\EventsListMicroservices.Domain.csproj",
-        "packagesPath": "C:\\Users\\INFOESPORTE\\.nuget\\packages\\",
-        "outputPath": "C:\\projetos\\Infnet_ProjetoBloco_3\\projeto_bloco_III\\EventsListMicroservices.Domain\\obj\\",
+        "projectPath": "D:\\@Infnet\\projeto_bloco\\projeto_bloco_III\\EventsListMicroservices.Domain\\EventsListMicroservices.Domain.csproj",
+        "packagesPath": "C:\\Users\\Alessandra\\.nuget\\packages\\",
+        "outputPath": "D:\\@Infnet\\projeto_bloco\\projeto_bloco_III\\EventsListMicroservices.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\INFOESPORTE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alessandra\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -53,27 +50,30 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\projetos\\Infnet_ProjetoBloco_3\\projeto_bloco_III\\EventsListMicroservices.Infra.DataAccess\\EventsListMicroservices.Infra.DataAccess.csproj": {
+    "D:\\@Infnet\\projeto_bloco\\projeto_bloco_III\\EventsListMicroservices.Infra.DataAccess\\EventsListMicroservices.Infra.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projetos\\Infnet_ProjetoBloco_3\\projeto_bloco_III\\EventsListMicroservices.Infra.DataAccess\\EventsListMicroservices.Infra.DataAccess.csproj",
+        "projectUniqueName": "D:\\@Infnet\\projeto_bloco\\projeto_bloco_III\\EventsListMicroservices.Infra.DataAccess\\EventsListMicroservices.Infra.DataAccess.csproj",
         "projectName": "EventsListMicroservices.Infra.DataAccess",
-        "projectPath": "C:\\projetos\\Infnet_ProjetoBloco_3\\projeto_bloco_III\\EventsListMicroservices.Infra.DataAccess\\EventsListMicroservices.Infra.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\INFOESPORTE\\.nuget\\packages\\",
-        "outputPath": "C:\\projetos\\Infnet_ProjetoBloco_3\\projeto_bloco_III\\EventsListMicroservices.Infra.DataAccess\\obj\\",
+        "projectPath": "D:\\@Infnet\\projeto_bloco\\projeto_bloco_III\\EventsListMicroservices.Infra.DataAccess\\EventsListMicroservices.Infra.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Alessandra\\.nuget\\packages\\",
+        "outputPath": "D:\\@Infnet\\projeto_bloco\\projeto_bloco_III\\EventsListMicroservices.Infra.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\INFOESPORTE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alessandra\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -86,8 +86,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\projetos\\Infnet_ProjetoBloco_3\\projeto_bloco_III\\EventsListMicroservices.Domain\\EventsListMicroservices.Domain.csproj": {
-                "projectPath": "C:\\projetos\\Infnet_ProjetoBloco_3\\projeto_bloco_III\\EventsListMicroservices.Domain\\EventsListMicroservices.Domain.csproj"
+              "D:\\@Infnet\\projeto_bloco\\projeto_bloco_III\\EventsListMicroservices.Domain\\EventsListMicroservices.Domain.csproj": {
+                "projectPath": "D:\\@Infnet\\projeto_bloco\\projeto_bloco_III\\EventsListMicroservices.Domain\\EventsListMicroservices.Domain.csproj"
               }
             }
           }
@@ -113,10 +113,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

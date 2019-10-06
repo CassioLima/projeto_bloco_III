@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.IO;
 using System.Net;
 using System.Text;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 
 namespace EventsTicketsMicroservices.API.Controllers
 {
+    [DisableCors]
     [Route("api/[controller]")]
     [ApiController]
     public class ValuesController : ControllerBase

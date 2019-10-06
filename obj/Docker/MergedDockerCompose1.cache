@@ -13,7 +13,7 @@ services:
       target: 9200
   eventbuyingmicroservices.api:
     build:
-      context: C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III
+      context: D:\@Infnet\projeto_bloco\projeto_bloco_III
       dockerfile: EventBuyingMicroservices.API/Dockerfile
       labels:
         com.microsoft.created-by: visual-studio
@@ -23,11 +23,10 @@ services:
     environment:
       ASPNETCORE_ENVIRONMENT: Development
       DOTNET_USE_POLLING_FILE_WATCHER: '1'
-      NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages
+      NUGET_FALLBACK_PACKAGES: ''
     image: eventbuyingmicroservicesapi:dev
     labels:
-      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
-        --additionalProbingPath /root/.nuget/fallbackpackages  "bin/Debug/netcoreapp2.2/EventBuyingMicroservices.API.dll"'
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages  "bin/Debug/netcoreapp2.2/EventBuyingMicroservices.API.dll"'
       com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
         dotnet); then kill $$PID; fi"
       com.microsoft.visualstudio.debuggee.program: dotnet
@@ -38,16 +37,17 @@ services:
     - published: 8084
       target: 80
     - target: 80
+    tty: true
     volumes:
-    - C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventBuyingMicroservices.API:/app:rw
-    - C:\Users\INFOESPORTE\vsdbg\vs2017u5:/remote_debugger:ro
-    - C:\Users\INFOESPORTE\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
-    - C:\Users\INFOESPORTE\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
-    - C:\Program Files\dotnet\sdk\NuGetFallbackFolder:/root/.nuget/fallbackpackages:ro
-    - C:\Users\INFOESPORTE\.nuget\packages:/root/.nuget/packages:ro
+    - D:\@Infnet\projeto_bloco\projeto_bloco_III\EventBuyingMicroservices.API:/app:rw
+    - C:\Users\Alessandra\vsdbg\vs2017u5:/remote_debugger:rw
+    - C:\Users\Alessandra\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\Alessandra\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+    - C:\Users\Alessandra\.nuget\packages:/root/.nuget/packages:ro
+    - D:\@Infnet\projeto_bloco\projeto_bloco_III:/src:rw
   eventslist.web:
     build:
-      context: C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III
+      context: D:\@Infnet\projeto_bloco\projeto_bloco_III
       dockerfile: EventsList.Web/Dockerfile
       labels:
         com.microsoft.created-by: visual-studio
@@ -63,11 +63,10 @@ services:
     environment:
       ASPNETCORE_ENVIRONMENT: Development
       DOTNET_USE_POLLING_FILE_WATCHER: '1'
-      NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages
+      NUGET_FALLBACK_PACKAGES: ''
     image: eventslistweb:dev
     labels:
-      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
-        --additionalProbingPath /root/.nuget/fallbackpackages  "bin/Debug/netcoreapp2.2/EventsList.Web.dll"'
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages  "bin/Debug/netcoreapp2.2/EventsList.Web.dll"'
       com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
         dotnet); then kill $$PID; fi"
       com.microsoft.visualstudio.debuggee.program: dotnet
@@ -78,16 +77,17 @@ services:
     - published: 8081
       target: 80
     - target: 80
+    tty: true
     volumes:
-    - C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsList.Web:/app:rw
-    - C:\Users\INFOESPORTE\vsdbg\vs2017u5:/remote_debugger:ro
-    - C:\Users\INFOESPORTE\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
-    - C:\Users\INFOESPORTE\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
-    - C:\Program Files\dotnet\sdk\NuGetFallbackFolder:/root/.nuget/fallbackpackages:ro
-    - C:\Users\INFOESPORTE\.nuget\packages:/root/.nuget/packages:ro
+    - D:\@Infnet\projeto_bloco\projeto_bloco_III\EventsList.Web:/app:rw
+    - C:\Users\Alessandra\vsdbg\vs2017u5:/remote_debugger:rw
+    - C:\Users\Alessandra\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\Alessandra\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+    - C:\Users\Alessandra\.nuget\packages:/root/.nuget/packages:ro
+    - D:\@Infnet\projeto_bloco\projeto_bloco_III:/src:rw
   eventslistmicroservices.api:
     build:
-      context: C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III
+      context: D:\@Infnet\projeto_bloco\projeto_bloco_III
       dockerfile: EventsListMicroservices.API/Dockerfile
       labels:
         com.microsoft.created-by: visual-studio
@@ -97,11 +97,10 @@ services:
     environment:
       ASPNETCORE_ENVIRONMENT: Development
       DOTNET_USE_POLLING_FILE_WATCHER: '1'
-      NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages
+      NUGET_FALLBACK_PACKAGES: ''
     image: eventslistmicroservicesapi:dev
     labels:
-      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
-        --additionalProbingPath /root/.nuget/fallbackpackages  "bin/Debug/netcoreapp2.2/EventsListMicroservices.API.dll"'
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages  "bin/Debug/netcoreapp2.2/EventsListMicroservices.API.dll"'
       com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
         dotnet); then kill $$PID; fi"
       com.microsoft.visualstudio.debuggee.program: dotnet
@@ -112,16 +111,17 @@ services:
     - published: 8083
       target: 80
     - target: 80
+    tty: true
     volumes:
-    - C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsListMicroservices.API:/app:rw
-    - C:\Users\INFOESPORTE\vsdbg\vs2017u5:/remote_debugger:ro
-    - C:\Users\INFOESPORTE\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
-    - C:\Users\INFOESPORTE\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
-    - C:\Program Files\dotnet\sdk\NuGetFallbackFolder:/root/.nuget/fallbackpackages:ro
-    - C:\Users\INFOESPORTE\.nuget\packages:/root/.nuget/packages:ro
+    - D:\@Infnet\projeto_bloco\projeto_bloco_III\EventsListMicroservices.API:/app:rw
+    - C:\Users\Alessandra\vsdbg\vs2017u5:/remote_debugger:rw
+    - C:\Users\Alessandra\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\Alessandra\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+    - C:\Users\Alessandra\.nuget\packages:/root/.nuget/packages:ro
+    - D:\@Infnet\projeto_bloco\projeto_bloco_III:/src:rw
   eventsticketsmicroservices.api:
     build:
-      context: C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III
+      context: D:\@Infnet\projeto_bloco\projeto_bloco_III
       dockerfile: EventsTicketsMicroservices.API/Dockerfile
       labels:
         com.microsoft.created-by: visual-studio
@@ -131,11 +131,10 @@ services:
     environment:
       ASPNETCORE_ENVIRONMENT: Development
       DOTNET_USE_POLLING_FILE_WATCHER: '1'
-      NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages
+      NUGET_FALLBACK_PACKAGES: ''
     image: eventsticketsmicroservicesapi:dev
     labels:
-      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
-        --additionalProbingPath /root/.nuget/fallbackpackages  "bin/Debug/netcoreapp2.2/EventsTicketsMicroservices.API.dll"'
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages  "bin/Debug/netcoreapp2.2/EventsTicketsMicroservices.API.dll"'
       com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
         dotnet); then kill $$PID; fi"
       com.microsoft.visualstudio.debuggee.program: dotnet
@@ -146,13 +145,14 @@ services:
     - published: 8082
       target: 80
     - target: 80
+    tty: true
     volumes:
-    - C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsTicketsMicroservices.API:/app:rw
-    - C:\Users\INFOESPORTE\vsdbg\vs2017u5:/remote_debugger:ro
-    - C:\Users\INFOESPORTE\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
-    - C:\Users\INFOESPORTE\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
-    - C:\Program Files\dotnet\sdk\NuGetFallbackFolder:/root/.nuget/fallbackpackages:ro
-    - C:\Users\INFOESPORTE\.nuget\packages:/root/.nuget/packages:ro
+    - D:\@Infnet\projeto_bloco\projeto_bloco_III\EventsTicketsMicroservices.API:/app:rw
+    - C:\Users\Alessandra\vsdbg\vs2017u5:/remote_debugger:rw
+    - C:\Users\Alessandra\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\Alessandra\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+    - C:\Users\Alessandra\.nuget\packages:/root/.nuget/packages:ro
+    - D:\@Infnet\projeto_bloco\projeto_bloco_III:/src:rw
   kibana:
     environment:
       ELASTICSEARCH_URL: http://elasticsearch:9200
@@ -164,7 +164,7 @@ services:
       target: 5601
   logger.api:
     build:
-      context: C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III
+      context: D:\@Infnet\projeto_bloco\projeto_bloco_III
       dockerfile: Logger.Api/Dockerfile
       labels:
         com.microsoft.created-by: visual-studio
@@ -174,11 +174,10 @@ services:
     environment:
       ASPNETCORE_ENVIRONMENT: Development
       DOTNET_USE_POLLING_FILE_WATCHER: '1'
-      NUGET_FALLBACK_PACKAGES: /root/.nuget/fallbackpackages
+      NUGET_FALLBACK_PACKAGES: ''
     image: loggerapi:dev
     labels:
-      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
-        --additionalProbingPath /root/.nuget/fallbackpackages  "bin/Debug/netcoreapp2.2/Logger.Api.dll"'
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages  "bin/Debug/netcoreapp2.2/Logger.Api.dll"'
       com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
         dotnet); then kill $$PID; fi"
       com.microsoft.visualstudio.debuggee.program: dotnet
@@ -189,13 +188,14 @@ services:
     - published: 8085
       target: 80
     - target: 80
+    tty: true
     volumes:
-    - C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\Logger.Api:/app:rw
-    - C:\Users\INFOESPORTE\vsdbg\vs2017u5:/remote_debugger:ro
-    - C:\Users\INFOESPORTE\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
-    - C:\Users\INFOESPORTE\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
-    - C:\Program Files\dotnet\sdk\NuGetFallbackFolder:/root/.nuget/fallbackpackages:ro
-    - C:\Users\INFOESPORTE\.nuget\packages:/root/.nuget/packages:ro
+    - D:\@Infnet\projeto_bloco\projeto_bloco_III\Logger.Api:/app:rw
+    - C:\Users\Alessandra\vsdbg\vs2017u5:/remote_debugger:rw
+    - C:\Users\Alessandra\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\Alessandra\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+    - C:\Users\Alessandra\.nuget\packages:/root/.nuget/packages:ro
+    - D:\@Infnet\projeto_bloco\projeto_bloco_III:/src:rw
   rabbitmq1:
     container_name: rabbitmq1
     hostname: rabbitmq1

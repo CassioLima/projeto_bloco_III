@@ -7,3 +7,10 @@ C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsListMicroservices.Doma
 C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsListMicroservices.Domain\obj\Debug\netstandard2.0\EventsListMicroservices.Domain.dll
 C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsListMicroservices.Domain\obj\Debug\netstandard2.0\EventsListMicroservices.Domain.pdb
 C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsListMicroservices.Domain\obj\Debug\netstandard2.0\EventsListMicroservices.Domain.csprojAssemblyReference.cache
+D:\@Infnet\projeto_bloco\projeto_bloco_III\EventsListMicroservices.Domain\bin\Debug\netstandard2.0\EventsListMicroservices.Domain.deps.json
+D:\@Infnet\projeto_bloco\projeto_bloco_III\EventsListMicroservices.Domain\bin\Debug\netstandard2.0\EventsListMicroservices.Domain.dll
+D:\@Infnet\projeto_bloco\projeto_bloco_III\EventsListMicroservices.Domain\bin\Debug\netstandard2.0\EventsListMicroservices.Domain.pdb
+D:\@Infnet\projeto_bloco\projeto_bloco_III\EventsListMicroservices.Domain\obj\Debug\netstandard2.0\EventsListMicroservices.Domain.AssemblyInfoInputs.cache
+D:\@Infnet\projeto_bloco\projeto_bloco_III\EventsListMicroservices.Domain\obj\Debug\netstandard2.0\EventsListMicroservices.Domain.AssemblyInfo.cs
+D:\@Infnet\projeto_bloco\projeto_bloco_III\EventsListMicroservices.Domain\obj\Debug\netstandard2.0\EventsListMicroservices.Domain.dll
+D:\@Infnet\projeto_bloco\projeto_bloco_III\EventsListMicroservices.Domain\obj\Debug\netstandard2.0\EventsListMicroservices.Domain.pdb

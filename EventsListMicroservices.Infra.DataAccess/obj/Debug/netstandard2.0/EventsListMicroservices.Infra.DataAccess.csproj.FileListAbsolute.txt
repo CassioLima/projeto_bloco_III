@@ -12,3 +12,16 @@ C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsListMicroservices.Infr
 C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsListMicroservices.Infra.DataAccess\obj\Debug\netstandard2.0\EventsListMicroservices.Infra.DataAccess.csproj.CopyComplete
 C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsListMicroservices.Infra.DataAccess\obj\Debug\netstandard2.0\EventsListMicroservices.Infra.DataAccess.dll
 C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\EventsListMicroservices.Infra.DataAccess\obj\Debug\netstandard2.0\EventsListMicroservices.Infra.DataAccess.pdb
+D:\@Infnet\projeto_bloco\projeto_bloco_III\EventsListMicroservices.Infra.DataAccess\bin\Debug\netstandard2.0\EventsListMicroservices.Infra.DataAccess.deps.json
+D:\@Infnet\projeto_bloco\projeto_bloco_III\EventsListMicroservices.Infra.DataAccess\bin\Debug\netstandard2.0\EventsListMicroservices.Infra.DataAccess.dll
+D:\@Infnet\projeto_bloco\projeto_bloco_III\EventsListMicroservices.Infra.DataAccess\bin\Debug\netstandard2.0\EventsListMicroservices.Infra.DataAccess.pdb
+D:\@Infnet\projeto_bloco\projeto_bloco_III\EventsListMicroservices.Infra.DataAccess\bin\Debug\netstandard2.0\EventsListMicroservices.Domain.dll
+D:\@Infnet\projeto_bloco\projeto_bloco_III\EventsListMicroservices.Infra.DataAccess\bin\Debug\netstandard2.0\EventsListMicroservices.Domain.pdb
+D:\@Infnet\projeto_bloco\projeto_bloco_III\EventsListMicroservices.Infra.DataAccess\obj\Debug\netstandard2.0\EventsListMicroservices.Infra.DataAccess.csprojAssemblyReference.cache
+D:\@Infnet\projeto_bloco\projeto_bloco_III\EventsListMicroservices.Infra.DataAccess\obj\Debug\netstandard2.0\EventsListMicroservices.Infra.DataAccess.Properties.Resources.resources
+D:\@Infnet\projeto_bloco\projeto_bloco_III\EventsListMicroservices.Infra.DataAccess\obj\Debug\netstandard2.0\EventsListMicroservices.Infra.DataAccess.csproj.GenerateResource.cache
+D:\@Infnet\projeto_bloco\projeto_bloco_III\EventsListMicroservices.Infra.DataAccess\obj\Debug\netstandard2.0\EventsListMicroservices.Infra.DataAccess.AssemblyInfoInputs.cache
+D:\@Infnet\projeto_bloco\projeto_bloco_III\EventsListMicroservices.Infra.DataAccess\obj\Debug\netstandard2.0\EventsListMicroservices.Infra.DataAccess.AssemblyInfo.cs
+D:\@Infnet\projeto_bloco\projeto_bloco_III\EventsListMicroservices.Infra.DataAccess\obj\Debug\netstandard2.0\EventsListMicroservices.Infra.DataAccess.csproj.CopyComplete
+D:\@Infnet\projeto_bloco\projeto_bloco_III\EventsListMicroservices.Infra.DataAccess\obj\Debug\netstandard2.0\EventsListMicroservices.Infra.DataAccess.dll
+D:\@Infnet\projeto_bloco\projeto_bloco_III\EventsListMicroservices.Infra.DataAccess\obj\Debug\netstandard2.0\EventsListMicroservices.Infra.DataAccess.pdb

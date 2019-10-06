@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projetos\\Infnet_ProjetoBloco_3\\projeto_bloco_III\\EventsTicketsMicroservices.API\\EventsTicketsMicroservices.API.csproj": {}
+    "D:\\@Infnet\\projeto_bloco\\projeto_bloco_III\\EventsTicketsMicroservices.API\\EventsTicketsMicroservices.API.csproj": {}
   },
   "projects": {
-    "C:\\projetos\\Infnet_ProjetoBloco_3\\projeto_bloco_III\\EventsTicketsMicroservices.API\\EventsTicketsMicroservices.API.csproj": {
+    "D:\\@Infnet\\projeto_bloco\\projeto_bloco_III\\EventsTicketsMicroservices.API\\EventsTicketsMicroservices.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projetos\\Infnet_ProjetoBloco_3\\projeto_bloco_III\\EventsTicketsMicroservices.API\\EventsTicketsMicroservices.API.csproj",
+        "projectUniqueName": "D:\\@Infnet\\projeto_bloco\\projeto_bloco_III\\EventsTicketsMicroservices.API\\EventsTicketsMicroservices.API.csproj",
         "projectName": "EventsTicketsMicroservices.API",
-        "projectPath": "C:\\projetos\\Infnet_ProjetoBloco_3\\projeto_bloco_III\\EventsTicketsMicroservices.API\\EventsTicketsMicroservices.API.csproj",
-        "packagesPath": "C:\\Users\\INFOESPORTE\\.nuget\\packages\\",
-        "outputPath": "C:\\projetos\\Infnet_ProjetoBloco_3\\projeto_bloco_III\\EventsTicketsMicroservices.API\\obj\\",
+        "projectPath": "D:\\@Infnet\\projeto_bloco\\projeto_bloco_III\\EventsTicketsMicroservices.API\\EventsTicketsMicroservices.API.csproj",
+        "packagesPath": "C:\\Users\\Alessandra\\.nuget\\packages\\",
+        "outputPath": "D:\\@Infnet\\projeto_bloco\\projeto_bloco_III\\EventsTicketsMicroservices.API\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\INFOESPORTE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alessandra\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -68,10 +65,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -5,11 +5,13 @@ using System.Text;
 using System.Threading.Tasks;
 using APIMensagens;
 using APIMensagens.Models;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using RabbitMQ.Client;
 
 namespace EventBuyingMicroservices.API.Controllers
 {
+    [EnableCors("MyPolicy")]
     [Route("api/[controller]")]
     [ApiController]
     public class ValuesController : ControllerBase
@@ -33,7 +35,7 @@ namespace EventBuyingMicroservices.API.Controllers
 
         // POST api/values
         [HttpPost]
-        public object Post([FromServices]RabbitMQConfigurations configurations, [FromBody]Conteudo conteudo)
+        public object Post([FromServices]RabbitMQConfigurations configurations, Conteudo conteudo)
         {
                                           
             var factory = new ConnectionFactory()
@@ -56,7 +58,7 @@ namespace EventBuyingMicroservices.API.Controllers
 
                 string message =
                     $"{DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss")} - " +
-                    $"Conteúdo da Mensagem: {conteudo.Mensagem}";
+                    $"Conteúdo da Mensagem: {conteudo}";
                 var body = Encoding.UTF8.GetBytes(message);
 
                 channel.BasicPublish(exchange: "",

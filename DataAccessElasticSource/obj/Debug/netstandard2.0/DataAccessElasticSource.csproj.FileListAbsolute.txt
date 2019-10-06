@@ -12,3 +12,16 @@ C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\DataAccessElasticSource\obj\
 C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\DataAccessElasticSource\obj\Debug\netstandard2.0\DataAccessElasticSource.csproj.CopyComplete
 C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\DataAccessElasticSource\obj\Debug\netstandard2.0\DataAccessElasticSource.dll
 C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III\DataAccessElasticSource\obj\Debug\netstandard2.0\DataAccessElasticSource.pdb
+D:\@Infnet\projeto_bloco\projeto_bloco_III\DataAccessElasticSource\bin\Debug\netstandard2.0\DataAccessElasticSource.deps.json
+D:\@Infnet\projeto_bloco\projeto_bloco_III\DataAccessElasticSource\bin\Debug\netstandard2.0\DataAccessElasticSource.dll
+D:\@Infnet\projeto_bloco\projeto_bloco_III\DataAccessElasticSource\bin\Debug\netstandard2.0\DataAccessElasticSource.pdb
+D:\@Infnet\projeto_bloco\projeto_bloco_III\DataAccessElasticSource\bin\Debug\netstandard2.0\DomainModelElasticSource.dll
+D:\@Infnet\projeto_bloco\projeto_bloco_III\DataAccessElasticSource\bin\Debug\netstandard2.0\DomainModelElasticSource.pdb
+D:\@Infnet\projeto_bloco\projeto_bloco_III\DataAccessElasticSource\obj\Debug\netstandard2.0\DataAccessElasticSource.csprojAssemblyReference.cache
+D:\@Infnet\projeto_bloco\projeto_bloco_III\DataAccessElasticSource\obj\Debug\netstandard2.0\DataAccessElasticSource.Properties.Resources.resources
+D:\@Infnet\projeto_bloco\projeto_bloco_III\DataAccessElasticSource\obj\Debug\netstandard2.0\DataAccessElasticSource.csproj.GenerateResource.cache
+D:\@Infnet\projeto_bloco\projeto_bloco_III\DataAccessElasticSource\obj\Debug\netstandard2.0\DataAccessElasticSource.AssemblyInfoInputs.cache
+D:\@Infnet\projeto_bloco\projeto_bloco_III\DataAccessElasticSource\obj\Debug\netstandard2.0\DataAccessElasticSource.AssemblyInfo.cs
+D:\@Infnet\projeto_bloco\projeto_bloco_III\DataAccessElasticSource\obj\Debug\netstandard2.0\DataAccessElasticSource.csproj.CopyComplete
+D:\@Infnet\projeto_bloco\projeto_bloco_III\DataAccessElasticSource\obj\Debug\netstandard2.0\DataAccessElasticSource.dll
+D:\@Infnet\projeto_bloco\projeto_bloco_III\DataAccessElasticSource\obj\Debug\netstandard2.0\DataAccessElasticSource.pdb

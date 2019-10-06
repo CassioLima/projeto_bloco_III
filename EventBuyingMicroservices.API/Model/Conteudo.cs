@@ -6,5 +6,7 @@ namespace APIMensagens.Models
     {
         [Required]
         public string Mensagem { get; set; }
+        [Required]
+        public string Nome { get; set; }
     }
 }

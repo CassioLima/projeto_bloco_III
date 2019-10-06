@@ -44,8 +44,7 @@ namespace EventsList.Web.Controllers
 
             //----------------------- Atualiza Tela Fim --------------------------------
 
-                                 
-            return null;
+           return null;
         }
 
         public IActionResult Privacy()

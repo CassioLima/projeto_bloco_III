@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projetos\\Infnet_ProjetoBloco_3\\projeto_bloco_III\\Logger.Api\\Logger.Api.csproj": {}
+    "D:\\@Infnet\\projeto_bloco\\projeto_bloco_III\\Logger.Api\\Logger.Api.csproj": {}
   },
   "projects": {
-    "C:\\projetos\\Infnet_ProjetoBloco_3\\projeto_bloco_III\\DataAccessElasticSource\\DataAccessElasticSource.csproj": {
+    "D:\\@Infnet\\projeto_bloco\\projeto_bloco_III\\DataAccessElasticSource\\DataAccessElasticSource.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projetos\\Infnet_ProjetoBloco_3\\projeto_bloco_III\\DataAccessElasticSource\\DataAccessElasticSource.csproj",
+        "projectUniqueName": "D:\\@Infnet\\projeto_bloco\\projeto_bloco_III\\DataAccessElasticSource\\DataAccessElasticSource.csproj",
         "projectName": "DataAccessElasticSource",
-        "projectPath": "C:\\projetos\\Infnet_ProjetoBloco_3\\projeto_bloco_III\\DataAccessElasticSource\\DataAccessElasticSource.csproj",
-        "packagesPath": "C:\\Users\\INFOESPORTE\\.nuget\\packages\\",
-        "outputPath": "C:\\projetos\\Infnet_ProjetoBloco_3\\projeto_bloco_III\\DataAccessElasticSource\\obj\\",
+        "projectPath": "D:\\@Infnet\\projeto_bloco\\projeto_bloco_III\\DataAccessElasticSource\\DataAccessElasticSource.csproj",
+        "packagesPath": "C:\\Users\\Alessandra\\.nuget\\packages\\",
+        "outputPath": "D:\\@Infnet\\projeto_bloco\\projeto_bloco_III\\DataAccessElasticSource\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\INFOESPORTE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alessandra\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -30,8 +27,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\projetos\\Infnet_ProjetoBloco_3\\projeto_bloco_III\\DomainModelElasticSource\\DomainModelElasticSource.csproj": {
-                "projectPath": "C:\\projetos\\Infnet_ProjetoBloco_3\\projeto_bloco_III\\DomainModelElasticSource\\DomainModelElasticSource.csproj"
+              "D:\\@Infnet\\projeto_bloco\\projeto_bloco_III\\DomainModelElasticSource\\DomainModelElasticSource.csproj": {
+                "projectPath": "D:\\@Infnet\\projeto_bloco\\projeto_bloco_III\\DomainModelElasticSource\\DomainModelElasticSource.csproj"
               }
             }
           }
@@ -57,27 +54,30 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\projetos\\Infnet_ProjetoBloco_3\\projeto_bloco_III\\DomainModelElasticSource\\DomainModelElasticSource.csproj": {
+    "D:\\@Infnet\\projeto_bloco\\projeto_bloco_III\\DomainModelElasticSource\\DomainModelElasticSource.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projetos\\Infnet_ProjetoBloco_3\\projeto_bloco_III\\DomainModelElasticSource\\DomainModelElasticSource.csproj",
+        "projectUniqueName": "D:\\@Infnet\\projeto_bloco\\projeto_bloco_III\\DomainModelElasticSource\\DomainModelElasticSource.csproj",
         "projectName": "DomainModelElasticSource",
-        "projectPath": "C:\\projetos\\Infnet_ProjetoBloco_3\\projeto_bloco_III\\DomainModelElasticSource\\DomainModelElasticSource.csproj",
-        "packagesPath": "C:\\Users\\INFOESPORTE\\.nuget\\packages\\",
-        "outputPath": "C:\\projetos\\Infnet_ProjetoBloco_3\\projeto_bloco_III\\DomainModelElasticSource\\obj\\",
+        "projectPath": "D:\\@Infnet\\projeto_bloco\\projeto_bloco_III\\DomainModelElasticSource\\DomainModelElasticSource.csproj",
+        "packagesPath": "C:\\Users\\Alessandra\\.nuget\\packages\\",
+        "outputPath": "D:\\@Infnet\\projeto_bloco\\projeto_bloco_III\\DomainModelElasticSource\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\INFOESPORTE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alessandra\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -113,27 +113,30 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\projetos\\Infnet_ProjetoBloco_3\\projeto_bloco_III\\DomainServiceElasticSource\\DomainServiceElasticSource.csproj": {
+    "D:\\@Infnet\\projeto_bloco\\projeto_bloco_III\\DomainServiceElasticSource\\DomainServiceElasticSource.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projetos\\Infnet_ProjetoBloco_3\\projeto_bloco_III\\DomainServiceElasticSource\\DomainServiceElasticSource.csproj",
+        "projectUniqueName": "D:\\@Infnet\\projeto_bloco\\projeto_bloco_III\\DomainServiceElasticSource\\DomainServiceElasticSource.csproj",
         "projectName": "DomainServiceElasticSource",
-        "projectPath": "C:\\projetos\\Infnet_ProjetoBloco_3\\projeto_bloco_III\\DomainServiceElasticSource\\DomainServiceElasticSource.csproj",
-        "packagesPath": "C:\\Users\\INFOESPORTE\\.nuget\\packages\\",
-        "outputPath": "C:\\projetos\\Infnet_ProjetoBloco_3\\projeto_bloco_III\\DomainServiceElasticSource\\obj\\",
+        "projectPath": "D:\\@Infnet\\projeto_bloco\\projeto_bloco_III\\DomainServiceElasticSource\\DomainServiceElasticSource.csproj",
+        "packagesPath": "C:\\Users\\Alessandra\\.nuget\\packages\\",
+        "outputPath": "D:\\@Infnet\\projeto_bloco\\projeto_bloco_III\\DomainServiceElasticSource\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\INFOESPORTE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alessandra\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -146,8 +149,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\projetos\\Infnet_ProjetoBloco_3\\projeto_bloco_III\\DomainModelElasticSource\\DomainModelElasticSource.csproj": {
-                "projectPath": "C:\\projetos\\Infnet_ProjetoBloco_3\\projeto_bloco_III\\DomainModelElasticSource\\DomainModelElasticSource.csproj"
+              "D:\\@Infnet\\projeto_bloco\\projeto_bloco_III\\DomainModelElasticSource\\DomainModelElasticSource.csproj": {
+                "projectPath": "D:\\@Infnet\\projeto_bloco\\projeto_bloco_III\\DomainModelElasticSource\\DomainModelElasticSource.csproj"
               }
             }
           }
@@ -169,27 +172,30 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\projetos\\Infnet_ProjetoBloco_3\\projeto_bloco_III\\Logger.Api\\Logger.Api.csproj": {
+    "D:\\@Infnet\\projeto_bloco\\projeto_bloco_III\\Logger.Api\\Logger.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projetos\\Infnet_ProjetoBloco_3\\projeto_bloco_III\\Logger.Api\\Logger.Api.csproj",
+        "projectUniqueName": "D:\\@Infnet\\projeto_bloco\\projeto_bloco_III\\Logger.Api\\Logger.Api.csproj",
         "projectName": "Logger.Api",
-        "projectPath": "C:\\projetos\\Infnet_ProjetoBloco_3\\projeto_bloco_III\\Logger.Api\\Logger.Api.csproj",
-        "packagesPath": "C:\\Users\\INFOESPORTE\\.nuget\\packages\\",
-        "outputPath": "C:\\projetos\\Infnet_ProjetoBloco_3\\projeto_bloco_III\\Logger.Api\\obj\\",
+        "projectPath": "D:\\@Infnet\\projeto_bloco\\projeto_bloco_III\\Logger.Api\\Logger.Api.csproj",
+        "packagesPath": "C:\\Users\\Alessandra\\.nuget\\packages\\",
+        "outputPath": "D:\\@Infnet\\projeto_bloco\\projeto_bloco_III\\Logger.Api\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\INFOESPORTE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Alessandra\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -202,11 +208,11 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\projetos\\Infnet_ProjetoBloco_3\\projeto_bloco_III\\DataAccessElasticSource\\DataAccessElasticSource.csproj": {
-                "projectPath": "C:\\projetos\\Infnet_ProjetoBloco_3\\projeto_bloco_III\\DataAccessElasticSource\\DataAccessElasticSource.csproj"
+              "D:\\@Infnet\\projeto_bloco\\projeto_bloco_III\\DataAccessElasticSource\\DataAccessElasticSource.csproj": {
+                "projectPath": "D:\\@Infnet\\projeto_bloco\\projeto_bloco_III\\DataAccessElasticSource\\DataAccessElasticSource.csproj"
               },
-              "C:\\projetos\\Infnet_ProjetoBloco_3\\projeto_bloco_III\\DomainServiceElasticSource\\DomainServiceElasticSource.csproj": {
-                "projectPath": "C:\\projetos\\Infnet_ProjetoBloco_3\\projeto_bloco_III\\DomainServiceElasticSource\\DomainServiceElasticSource.csproj"
+              "D:\\@Infnet\\projeto_bloco\\projeto_bloco_III\\DomainServiceElasticSource\\DomainServiceElasticSource.csproj": {
+                "projectPath": "D:\\@Infnet\\projeto_bloco\\projeto_bloco_III\\DomainServiceElasticSource\\DomainServiceElasticSource.csproj"
               }
             }
           }
@@ -243,10 +249,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

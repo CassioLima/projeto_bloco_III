@@ -13,7 +13,7 @@ services:
       target: 9200
   eventbuyingmicroservices.api:
     build:
-      context: C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III
+      context: D:\@Infnet\projeto_bloco\projeto_bloco_III
       dockerfile: EventBuyingMicroservices.API/Dockerfile
     environment:
       ASPNETCORE_ENVIRONMENT: Development
@@ -26,7 +26,7 @@ services:
     - target: 80
   eventslist.web:
     build:
-      context: C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III
+      context: D:\@Infnet\projeto_bloco\projeto_bloco_III
       dockerfile: EventsList.Web/Dockerfile
     depends_on:
     - elasticsearch
@@ -45,7 +45,7 @@ services:
     - target: 80
   eventslistmicroservices.api:
     build:
-      context: C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III
+      context: D:\@Infnet\projeto_bloco\projeto_bloco_III
       dockerfile: EventsListMicroservices.API/Dockerfile
     environment:
       ASPNETCORE_ENVIRONMENT: Development
@@ -58,7 +58,7 @@ services:
     - target: 80
   eventsticketsmicroservices.api:
     build:
-      context: C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III
+      context: D:\@Infnet\projeto_bloco\projeto_bloco_III
       dockerfile: EventsTicketsMicroservices.API/Dockerfile
     environment:
       ASPNETCORE_ENVIRONMENT: Development
@@ -80,7 +80,7 @@ services:
       target: 5601
   logger.api:
     build:
-      context: C:\projetos\Infnet_ProjetoBloco_3\projeto_bloco_III
+      context: D:\@Infnet\projeto_bloco\projeto_bloco_III
       dockerfile: Logger.Api/Dockerfile
     environment:
       ASPNETCORE_ENVIRONMENT: Development

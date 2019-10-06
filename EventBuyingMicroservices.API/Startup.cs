@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using APIMensagens;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
@@ -21,6 +22,7 @@ namespace EventBuyingMicroservices.API
         }
 
         public IConfiguration Configuration { get; }
+        readonly string MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
@@ -36,6 +38,15 @@ namespace EventBuyingMicroservices.API
                     .Configure(rabbitMQConfigurations);
             services.AddSingleton(rabbitMQConfigurations);
 
+            services.AddCors(o => o.AddPolicy("MyPolicy", builder =>
+            {
+                builder.AllowAnyOrigin()
+                       .AllowAnyMethod()
+                       .AllowAnyHeader();
+            }));
+
+
+
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
@@ -46,6 +57,8 @@ namespace EventBuyingMicroservices.API
             {
                 app.UseDeveloperExceptionPage();
             }
+            app.UseCors("MyPolicy");
+            //app.UseCors(option => option.AllowAnyOrigin());
 
             app.UseMvc();
         }
