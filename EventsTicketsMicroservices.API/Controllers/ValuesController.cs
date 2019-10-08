@@ -55,8 +55,8 @@ namespace EventsTicketsMicroservices.API.Controllers
         public void Post(Conteudo conteudo)
         {
             string urlString = "https://api.telegram.org/bot{0}/sendMessage?chat_id={1}&text={2}";
-            string apiToken = "COLOCAR O SEU TOKEN";
-            string chatId = "COLOCAR SUA ID";
+            string apiToken = "COLOCAR SEU TOKEN";
+            string chatId = "COLOCAR SEU ID";
             string text = conteudo.Nome + ": " + conteudo.MensagemCompra; 
             urlString = String.Format(urlString, apiToken, chatId, text);
             WebRequest request = WebRequest.Create(urlString);
