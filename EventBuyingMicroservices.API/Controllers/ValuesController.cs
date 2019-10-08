@@ -7,6 +7,7 @@ using APIMensagens;
 using APIMensagens.Models;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using RabbitMQ.Client;
 
 namespace EventBuyingMicroservices.API.Controllers
@@ -56,10 +57,10 @@ namespace EventBuyingMicroservices.API.Controllers
                                      autoDelete: false,
                                      arguments: null);
 
-                string message =
-                    $"{DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss")} - " +
-                    $"Conteúdo da Mensagem: {conteudo}";
-                var body = Encoding.UTF8.GetBytes(message);
+                //string message =
+                //    $"{DateTime.Now.ToString("dd/MM/yyyy HH:mm:ss")} - " +
+                //    $"Conteúdo da Mensagem: {conteudo.Mensagem}";
+                var body = Encoding.UTF8.GetBytes(JsonConvert.SerializeObject(conteudo));
 
                 channel.BasicPublish(exchange: "",
                                      routingKey: "TestesASPNETCore",
