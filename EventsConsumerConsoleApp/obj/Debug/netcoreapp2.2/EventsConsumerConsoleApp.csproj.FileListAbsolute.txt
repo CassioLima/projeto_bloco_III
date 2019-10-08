@@ -1,0 +1,16 @@
+D:\@Infnet\projeto_bloco\projeto_bloco_III\EventsConsumerConsoleApp\bin\Debug\netcoreapp2.2\appsettings.Development.json
+D:\@Infnet\projeto_bloco\projeto_bloco_III\EventsConsumerConsoleApp\bin\Debug\netcoreapp2.2\appsettings.json
+D:\@Infnet\projeto_bloco\projeto_bloco_III\EventsConsumerConsoleApp\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+D:\@Infnet\projeto_bloco\projeto_bloco_III\EventsConsumerConsoleApp\bin\Debug\netcoreapp2.2\EventsConsumerConsoleApp.deps.json
+D:\@Infnet\projeto_bloco\projeto_bloco_III\EventsConsumerConsoleApp\bin\Debug\netcoreapp2.2\EventsConsumerConsoleApp.runtimeconfig.json
+D:\@Infnet\projeto_bloco\projeto_bloco_III\EventsConsumerConsoleApp\bin\Debug\netcoreapp2.2\EventsConsumerConsoleApp.runtimeconfig.dev.json
+D:\@Infnet\projeto_bloco\projeto_bloco_III\EventsConsumerConsoleApp\bin\Debug\netcoreapp2.2\EventsConsumerConsoleApp.dll
+D:\@Infnet\projeto_bloco\projeto_bloco_III\EventsConsumerConsoleApp\bin\Debug\netcoreapp2.2\EventsConsumerConsoleApp.pdb
+D:\@Infnet\projeto_bloco\projeto_bloco_III\EventsConsumerConsoleApp\bin\Debug\netcoreapp2.2\EventBuyingMicroservices.API.dll
+D:\@Infnet\projeto_bloco\projeto_bloco_III\EventsConsumerConsoleApp\bin\Debug\netcoreapp2.2\EventBuyingMicroservices.API.pdb
+D:\@Infnet\projeto_bloco\projeto_bloco_III\EventsConsumerConsoleApp\obj\Debug\netcoreapp2.2\EventsConsumerConsoleApp.csprojAssemblyReference.cache
+D:\@Infnet\projeto_bloco\projeto_bloco_III\EventsConsumerConsoleApp\obj\Debug\netcoreapp2.2\EventsConsumerConsoleApp.AssemblyInfoInputs.cache
+D:\@Infnet\projeto_bloco\projeto_bloco_III\EventsConsumerConsoleApp\obj\Debug\netcoreapp2.2\EventsConsumerConsoleApp.AssemblyInfo.cs
+D:\@Infnet\projeto_bloco\projeto_bloco_III\EventsConsumerConsoleApp\obj\Debug\netcoreapp2.2\EventsConsumerConsoleApp.csproj.CopyComplete
+D:\@Infnet\projeto_bloco\projeto_bloco_III\EventsConsumerConsoleApp\obj\Debug\netcoreapp2.2\EventsConsumerConsoleApp.dll
+D:\@Infnet\projeto_bloco\projeto_bloco_III\EventsConsumerConsoleApp\obj\Debug\netcoreapp2.2\EventsConsumerConsoleApp.pdb

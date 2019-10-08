@@ -14,3 +14,4 @@ D:\@Infnet\projeto_bloco\projeto_bloco_III\DomainModelElasticSource\obj\Debug\ne
 D:\@Infnet\projeto_bloco\projeto_bloco_III\DomainModelElasticSource\obj\Debug\netstandard2.0\DomainModelElasticSource.AssemblyInfo.cs
 D:\@Infnet\projeto_bloco\projeto_bloco_III\DomainModelElasticSource\obj\Debug\netstandard2.0\DomainModelElasticSource.dll
 D:\@Infnet\projeto_bloco\projeto_bloco_III\DomainModelElasticSource\obj\Debug\netstandard2.0\DomainModelElasticSource.pdb
+D:\@Infnet\projeto_bloco\projeto_bloco_III\DomainModelElasticSource\obj\Debug\netstandard2.0\DomainModelElasticSource.csprojAssemblyReference.cache

@@ -13,6 +13,9 @@
         "packagesPath": "C:\\Users\\Alessandra\\.nuget\\packages\\",
         "outputPath": "D:\\@Infnet\\projeto_bloco\\projeto_bloco_III\\DomainModelElasticSource\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\Alessandra\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -72,6 +75,9 @@
         "packagesPath": "C:\\Users\\Alessandra\\.nuget\\packages\\",
         "outputPath": "D:\\@Infnet\\projeto_bloco\\projeto_bloco_III\\DomainServiceElasticSource\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\Alessandra\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"

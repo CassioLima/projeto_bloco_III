@@ -13,6 +13,9 @@
         "packagesPath": "C:\\Users\\Alessandra\\.nuget\\packages\\",
         "outputPath": "D:\\@Infnet\\projeto_bloco\\projeto_bloco_III\\EventBuyingMicroservices.API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\Alessandra\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -87,19 +90,22 @@
         "packagesPath": "C:\\Users\\Alessandra\\.nuget\\packages\\",
         "outputPath": "D:\\@Infnet\\projeto_bloco\\projeto_bloco_III\\EventsConsumerConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\Alessandra\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.0"
+          "netcoreapp2.2"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.0": {
+          "netcoreapp2.2": {
             "projectReferences": {
               "D:\\@Infnet\\projeto_bloco\\projeto_bloco_III\\EventBuyingMicroservices.API\\EventBuyingMicroservices.API.csproj": {
                 "projectPath": "D:\\@Infnet\\projeto_bloco\\projeto_bloco_III\\EventBuyingMicroservices.API\\EventBuyingMicroservices.API.csproj"
@@ -114,7 +120,7 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "netcoreapp2.2": {
           "dependencies": {
             "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",
@@ -123,6 +129,12 @@
             "Microsoft.Extensions.Options.ConfigurationExtensions": {
               "target": "Package",
               "version": "[3.0.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -143,11 +155,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
