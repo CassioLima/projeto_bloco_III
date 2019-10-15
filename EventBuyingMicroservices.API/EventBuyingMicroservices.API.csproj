@@ -17,6 +17,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\EventBuyingMicroService.Domain\EventBuyingMicroService.Domain.csproj" />
+    <ProjectReference Include="..\EventsBuying.Application\EventsBuying.Application.csproj" />
+    <ProjectReference Include="..\EventsBuying.Infra.DataAccess\EventsBuying.Infra.DataAccess.csproj" />
   </ItemGroup>
 
 </Project>

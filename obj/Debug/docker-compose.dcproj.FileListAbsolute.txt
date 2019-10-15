@@ -35,6 +35,9 @@ D:\@Infnet\projeto_bloco\projeto_bloco_III\bin\Debug\EventsTicketsMicroservices.
 D:\@Infnet\projeto_bloco\projeto_bloco_III\bin\Debug\Logger.Api.dll
 D:\@Infnet\projeto_bloco\projeto_bloco_III\bin\Debug\EventsListMicroservices.Domain.dll
 D:\@Infnet\projeto_bloco\projeto_bloco_III\bin\Debug\EventsListMicroservices.Infra.DataAccess.dll
+D:\@Infnet\projeto_bloco\projeto_bloco_III\bin\Debug\EventsBuying.Infra.DataAccess.dll
+D:\@Infnet\projeto_bloco\projeto_bloco_III\bin\Debug\EventsBuying.Application.dll
+D:\@Infnet\projeto_bloco\projeto_bloco_III\bin\Debug\EventBuyingMicroService.Domain.dll
 D:\@Infnet\projeto_bloco\projeto_bloco_III\bin\Debug\DomainServiceElasticSource.dll
 D:\@Infnet\projeto_bloco\projeto_bloco_III\bin\Debug\DomainModelElasticSource.dll
 D:\@Infnet\projeto_bloco\projeto_bloco_III\bin\Debug\DataAccessElasticSource.dll
@@ -45,6 +48,9 @@ D:\@Infnet\projeto_bloco\projeto_bloco_III\bin\Debug\EventsTicketsMicroservices.
 D:\@Infnet\projeto_bloco\projeto_bloco_III\bin\Debug\Logger.Api.pdb
 D:\@Infnet\projeto_bloco\projeto_bloco_III\bin\Debug\EventsListMicroservices.Domain.pdb
 D:\@Infnet\projeto_bloco\projeto_bloco_III\bin\Debug\EventsListMicroservices.Infra.DataAccess.pdb
+D:\@Infnet\projeto_bloco\projeto_bloco_III\bin\Debug\EventsBuying.Infra.DataAccess.pdb
+D:\@Infnet\projeto_bloco\projeto_bloco_III\bin\Debug\EventsBuying.Application.pdb
+D:\@Infnet\projeto_bloco\projeto_bloco_III\bin\Debug\EventBuyingMicroService.Domain.pdb
 D:\@Infnet\projeto_bloco\projeto_bloco_III\bin\Debug\DomainServiceElasticSource.pdb
 D:\@Infnet\projeto_bloco\projeto_bloco_III\bin\Debug\DomainModelElasticSource.pdb
 D:\@Infnet\projeto_bloco\projeto_bloco_III\bin\Debug\DataAccessElasticSource.pdb

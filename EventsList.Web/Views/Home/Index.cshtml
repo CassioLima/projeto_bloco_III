@@ -10,31 +10,30 @@
     @foreach (var evento in Model)
     {
 
-        <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
-            <div class="d-flex w-100 justify-content-between">
-                <h5 class="mb-1">
-                    @evento.NOM_EVENTO
-                </h5>
-                <small class="text-muted">3 dias atrás</small>
-            </div>
-            <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-            <small class="text-muted">Donec id elit non mi porta.</small>
-            <span class="badge badge-primary badge-pill">15</span>
-        </a>
+    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+        Código do evento:
+        <span>@evento.SEQ_EVENTO</span>
+        <div class="d-flex w-100 justify-content-between">
+
+            <h5 class="mb-1">
+                @evento.NOM_EVENTO
+            </h5>
+            <small class="text-muted">3 dias atrás</small>
+        </div>
+        <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
+        <small class="text-muted">Donec id elit non mi porta.</small>
+        <span class="badge badge-primary badge-pill">15</span>
+    </a>
 
 
     }
 </div>
 
-
-@*<button id="relatorio" type="button" data-toggle="modal" data-target="#iddiv" class="btn btn-primary" data-loading-text="&lt;span class=&quot;glyphicon glyphicon-refresh glyphicon-refresh-animate&quot;&gt;&lt;/span&gt; Aguarde...">Relatório</button>*@
-
 <div id="iddiv" class="modal fade">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <!--<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>-->
-                <h4 class="modal-title">Gerar ingresso do evento</h4>
+                <h4 class="modal-title">Comprar ingresso do evento</h4>
             </div>
             <div class="modal-body">
                 <p><div id="sNomeEvento"></div></p>
@@ -47,7 +46,7 @@
 
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" id="btnClose" class="btn btn-default" data-dismiss="modal">Close</button>
                 <form id="form" name="form">
                     <button type="button" id="btnCompra" class="btn btn-primary">Gerar Ingresso</button>
                 </form>
@@ -65,45 +64,45 @@
     $(document).ready(function () {
         $.support.cors = true;
         var nomeEvento;
+        var idEvento;
         $(".list-group-item").on('click', function () {
-
 
             $('.active').removeClass('active');
             $(this).addClass('active');
 
-
             sNomeEvento.innerText = "Nome do Evento: " + $(this).children().children()[0].innerText;
 
             $('#iddiv').modal('show');
+            idEvento = $(this).children()[0].innerText;
             nomeEvento = $(this).children().children()[0].innerText;
-            console.log($(this).children().children()[0].innerText);
-
-
+            console.log($(this).children()[0].innerText);
 
         });
 
+
         $('#btnCompra').on('click', function (e) {
             e.preventDefault();
-            console.log('1');
+            //console.log('1');
 
             var jsonObject = {
-                "Mensagem": nomeEvento,
+                "IdEvento": idEvento,
+                "NomeEvento": nomeEvento,
                 "Nome": $("#txtNome").val()
             };
 
             //alert(JSON.stringify(jsonObject));
 
             $.ajax({
-                url: "http://localhost:8084/api/values",
+                url: "http://localhost:8084/api/EventsBuying",
                 method: "POST",
                 crossDomain: true,
                 headers: { 'Access-Control-Allow-Origin': '*' },
                 data: JSON.stringify(jsonObject),
                 dataType: 'json',
                 contentType: "application/json",
-                success: function (response) {
-                    //var resp = JSON.parse(response)
-                    alert(response.resultado);
+                success: function (data) {
+                    $("#txtNome").val("");
+                    btnClose.click();
                 },
                 error: function (xhr, status) {
                     alert("error");

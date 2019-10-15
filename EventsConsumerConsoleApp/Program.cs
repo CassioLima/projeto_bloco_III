@@ -73,7 +73,7 @@ namespace EventsConsumerConsoleApp
             using (var connection = factory.CreateConnection())
             using (var channel = connection.CreateModel())
             {
-                channel.QueueDeclare(queue: "TestesASPNETCore",
+                channel.QueueDeclare(queue: "add-event-buying-command-queue",
                                      durable: false,
                                      exclusive: false,
                                      autoDelete: false,
@@ -81,7 +81,7 @@ namespace EventsConsumerConsoleApp
 
                 var consumer = new EventingBasicConsumer(channel);
                 consumer.Received += Consumer_Received;
-                channel.BasicConsume(queue: "TestesASPNETCore",
+                channel.BasicConsume(queue: "add-event-buying-command-queue",
                      autoAck: true,
                      consumer: consumer);
 

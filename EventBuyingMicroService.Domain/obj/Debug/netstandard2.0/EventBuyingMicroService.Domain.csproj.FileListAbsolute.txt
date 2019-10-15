@@ -1,6 +1,7 @@
 D:\@Infnet\projeto_bloco\projeto_bloco_III\EventBuyingMicroService.Domain\bin\Debug\netstandard2.0\EventBuyingMicroService.Domain.deps.json
 D:\@Infnet\projeto_bloco\projeto_bloco_III\EventBuyingMicroService.Domain\bin\Debug\netstandard2.0\EventBuyingMicroService.Domain.dll
 D:\@Infnet\projeto_bloco\projeto_bloco_III\EventBuyingMicroService.Domain\bin\Debug\netstandard2.0\EventBuyingMicroService.Domain.pdb
+D:\@Infnet\projeto_bloco\projeto_bloco_III\EventBuyingMicroService.Domain\obj\Debug\netstandard2.0\EventBuyingMicroService.Domain.csprojAssemblyReference.cache
 D:\@Infnet\projeto_bloco\projeto_bloco_III\EventBuyingMicroService.Domain\obj\Debug\netstandard2.0\EventBuyingMicroService.Domain.AssemblyInfoInputs.cache
 D:\@Infnet\projeto_bloco\projeto_bloco_III\EventBuyingMicroService.Domain\obj\Debug\netstandard2.0\EventBuyingMicroService.Domain.AssemblyInfo.cs
 D:\@Infnet\projeto_bloco\projeto_bloco_III\EventBuyingMicroService.Domain\obj\Debug\netstandard2.0\EventBuyingMicroService.Domain.dll

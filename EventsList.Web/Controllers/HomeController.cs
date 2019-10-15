@@ -31,7 +31,8 @@ namespace EventsList.Web.Controllers
 
             //----------------------- Atualiza Tela Inicio --------------------------------
             HttpClient clientGet = new HttpClient();
-            clientGet.BaseAddress = new Uri("http://localhost:8082/api/values");
+            //clientGet.BaseAddress = new Uri("http://localhost:8082/api/values");
+            clientGet.BaseAddress = new Uri("http://eventslistmicroservices.api/");
             HttpResponseMessage response = clientGet.GetAsync("/api/events/GetAll").Result;
 
             if (response.IsSuccessStatusCode)

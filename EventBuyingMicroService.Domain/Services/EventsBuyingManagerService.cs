@@ -1,4 +1,5 @@
 ﻿using EventBuyingMicroService.Domain.EventBuyingAggregate;
+using EventBuyingMicroService.Domain.Interfaces.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -6,18 +7,17 @@ using System.Text;
 namespace EventBuyingMicroService.Domain.Services
 {
     public class EventsBuyingManagerService
-    {
-        private readonly IEventBuyingCommandRepository _eventBuyingCommandRepository;
+    {   
+        private readonly IEventBuyingRepository _eventBuyingRepository;
 
-        public EventsBuyingManagerService(IEventBuyingCommandRepository eventBuyingCommandRepository)
+        public EventsBuyingManagerService(IEventBuyingRepository eventBuyingRepository)
         {
-            _eventBuyingCommandRepository = eventBuyingCommandRepository;
+            _eventBuyingRepository = eventBuyingRepository;
         }
 
         public void AddEventsBuying(EventsBuyingEntity eventsBuying)
         {
-            _eventBuyingCommandRepository.Create(eventsBuying);
-            _eventBuyingCommandRepository.SaveChanges();
+            _eventBuyingRepository.Create(eventsBuying);
         }
 
     }

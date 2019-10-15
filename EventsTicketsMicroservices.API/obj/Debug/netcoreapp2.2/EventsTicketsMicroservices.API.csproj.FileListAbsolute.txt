@@ -20,7 +20,6 @@ D:\@Infnet\projeto_bloco\projeto_bloco_III\EventsTicketsMicroservices.API\bin\De
 D:\@Infnet\projeto_bloco\projeto_bloco_III\EventsTicketsMicroservices.API\bin\Debug\netcoreapp2.2\EventsTicketsMicroservices.API.runtimeconfig.dev.json
 D:\@Infnet\projeto_bloco\projeto_bloco_III\EventsTicketsMicroservices.API\bin\Debug\netcoreapp2.2\EventsTicketsMicroservices.API.dll
 D:\@Infnet\projeto_bloco\projeto_bloco_III\EventsTicketsMicroservices.API\bin\Debug\netcoreapp2.2\EventsTicketsMicroservices.API.pdb
-D:\@Infnet\projeto_bloco\projeto_bloco_III\EventsTicketsMicroservices.API\obj\Debug\netcoreapp2.2\EventsTicketsMicroservices.API.csprojAssemblyReference.cache
 D:\@Infnet\projeto_bloco\projeto_bloco_III\EventsTicketsMicroservices.API\obj\Debug\netcoreapp2.2\EventsTicketsMicroservices.API.RazorAssemblyInfo.cache
 D:\@Infnet\projeto_bloco\projeto_bloco_III\EventsTicketsMicroservices.API\obj\Debug\netcoreapp2.2\EventsTicketsMicroservices.API.RazorAssemblyInfo.cs
 D:\@Infnet\projeto_bloco\projeto_bloco_III\EventsTicketsMicroservices.API\obj\Debug\netcoreapp2.2\EventsTicketsMicroservices.API.AssemblyInfoInputs.cache

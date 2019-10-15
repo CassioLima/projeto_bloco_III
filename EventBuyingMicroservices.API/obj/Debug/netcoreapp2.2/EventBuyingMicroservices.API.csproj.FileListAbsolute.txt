@@ -21,7 +21,11 @@ D:\@Infnet\projeto_bloco\projeto_bloco_III\EventBuyingMicroservices.API\bin\Debu
 D:\@Infnet\projeto_bloco\projeto_bloco_III\EventBuyingMicroservices.API\bin\Debug\netcoreapp2.2\EventBuyingMicroservices.API.dll
 D:\@Infnet\projeto_bloco\projeto_bloco_III\EventBuyingMicroservices.API\bin\Debug\netcoreapp2.2\EventBuyingMicroservices.API.pdb
 D:\@Infnet\projeto_bloco\projeto_bloco_III\EventBuyingMicroservices.API\bin\Debug\netcoreapp2.2\EventBuyingMicroService.Domain.dll
+D:\@Infnet\projeto_bloco\projeto_bloco_III\EventBuyingMicroservices.API\bin\Debug\netcoreapp2.2\EventsBuying.Application.dll
+D:\@Infnet\projeto_bloco\projeto_bloco_III\EventBuyingMicroservices.API\bin\Debug\netcoreapp2.2\EventsBuying.Infra.DataAccess.dll
 D:\@Infnet\projeto_bloco\projeto_bloco_III\EventBuyingMicroservices.API\bin\Debug\netcoreapp2.2\EventBuyingMicroService.Domain.pdb
+D:\@Infnet\projeto_bloco\projeto_bloco_III\EventBuyingMicroservices.API\bin\Debug\netcoreapp2.2\EventsBuying.Application.pdb
+D:\@Infnet\projeto_bloco\projeto_bloco_III\EventBuyingMicroservices.API\bin\Debug\netcoreapp2.2\EventsBuying.Infra.DataAccess.pdb
 D:\@Infnet\projeto_bloco\projeto_bloco_III\EventBuyingMicroservices.API\obj\Debug\netcoreapp2.2\EventBuyingMicroservices.API.csprojAssemblyReference.cache
 D:\@Infnet\projeto_bloco\projeto_bloco_III\EventBuyingMicroservices.API\obj\Debug\netcoreapp2.2\EventBuyingMicroservices.API.RazorAssemblyInfo.cache
 D:\@Infnet\projeto_bloco\projeto_bloco_III\EventBuyingMicroservices.API\obj\Debug\netcoreapp2.2\EventBuyingMicroservices.API.RazorAssemblyInfo.cs

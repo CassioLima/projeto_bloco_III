@@ -1,0 +1,11 @@
+D:\@Infnet\projeto_bloco\projeto_bloco_III\EventsBuying.Application\bin\Debug\netstandard2.0\EventsBuying.Application.deps.json
+D:\@Infnet\projeto_bloco\projeto_bloco_III\EventsBuying.Application\bin\Debug\netstandard2.0\EventsBuying.Application.dll
+D:\@Infnet\projeto_bloco\projeto_bloco_III\EventsBuying.Application\bin\Debug\netstandard2.0\EventsBuying.Application.pdb
+D:\@Infnet\projeto_bloco\projeto_bloco_III\EventsBuying.Application\bin\Debug\netstandard2.0\EventBuyingMicroService.Domain.dll
+D:\@Infnet\projeto_bloco\projeto_bloco_III\EventsBuying.Application\bin\Debug\netstandard2.0\EventBuyingMicroService.Domain.pdb
+D:\@Infnet\projeto_bloco\projeto_bloco_III\EventsBuying.Application\obj\Debug\netstandard2.0\EventsBuying.Application.csprojAssemblyReference.cache
+D:\@Infnet\projeto_bloco\projeto_bloco_III\EventsBuying.Application\obj\Debug\netstandard2.0\EventsBuying.Application.AssemblyInfoInputs.cache
+D:\@Infnet\projeto_bloco\projeto_bloco_III\EventsBuying.Application\obj\Debug\netstandard2.0\EventsBuying.Application.AssemblyInfo.cs
+D:\@Infnet\projeto_bloco\projeto_bloco_III\EventsBuying.Application\obj\Debug\netstandard2.0\EventsBuying.Application.csproj.CopyComplete
+D:\@Infnet\projeto_bloco\projeto_bloco_III\EventsBuying.Application\obj\Debug\netstandard2.0\EventsBuying.Application.dll
+D:\@Infnet\projeto_bloco\projeto_bloco_III\EventsBuying.Application\obj\Debug\netstandard2.0\EventsBuying.Application.pdb
